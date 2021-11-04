@@ -1,0 +1,40 @@
+:: StoryTitle
+Lianhua
+
+:: StorySubtitle
+The Lotus Hero
+
+:: StoryData
+{
+	"format": "SugarCube",
+    "format-version": "2.30.0",
+    "ifid": "B1354C54-C12D-4A53-A5C0-C2B47CB31827"
+}
+
+:: StoryAuthor
+author
+
+/* banner - relative path from output */
+:: StoryBanner
+[img[Banner|assets/banner.png]]
+
+:: StoryCaption
+caption
+
+/* run once on story init 
+*/
+:: StoryInit
+/* initialize config 
+*/
+<<script>> 
+    config.history.controls = false;
+<</script>>
+
+/* initialize variables
+*/
+<<set $traitI = 0>>
+<<set $traitE = 0>>
+<<set $traitJ = 0>>
+<<set $traitP = 0>>
+
+/* TBD: StoryInterface to make old passages show up at the back? */

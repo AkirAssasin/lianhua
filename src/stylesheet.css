@@ -1,0 +1,14 @@
+/* hide menu items */
+#menu-item-saves, #menu-item-restart {
+	display: none;
+}
+
+/* hide the entire menu */
+#menu-core {
+	display: none;
+}
+
+/* make images fit into their space */
+img {
+    width: 100%;
+}

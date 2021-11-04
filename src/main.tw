@@ -1,13 +1,3 @@
-:: StoryTitle
-Lianhua: The Lotus Hero
-
-:: StoryData
-{
-	"format": "SugarCube",
-    "format-version": "2.30.0",
-    "ifid": "B1354C54-C12D-4A53-A5C0-C2B47CB31827"
-}
-
 :: Start
 This is the beginning of the story.
 Use this to ''bold text''.
@@ -18,6 +8,7 @@ tweego -o output.html src
 
 Use this to link to another passage: [[A passage in another file]]
 Or if you want to use different text for the [[link -> A passage with no tags]]
+[[Personality Test]]
 
 :: A passage with no tags
 Content of the "A passage with no tags" passage.
