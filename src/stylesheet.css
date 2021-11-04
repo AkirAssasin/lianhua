@@ -1,3 +1,16 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
+
+/* root */
+:root {
+
+    /* variables */
+    --main-bg-color: #1a1513;
+    --main-fg-color: #e3e9de;
+    --main-lk-color: #e091c2;
+}
+
 /* hide menu items */
 #menu-item-saves, #menu-item-restart {
 	display: none;
@@ -10,5 +23,31 @@
 
 /* make images fit into their space */
 img {
-    width: 100%;
+    width: 80%;
+}
+
+/* document element */
+html {
+
+    /* font */
+    font-family: 'Zen Old Mincho', serif;
+    font-family: 'Zen Kaku Gothic Antique', serif;
+    font-size: 18px;
+}
+
+/* body */
+body {
+
+    /* background color */
+    background-color: var(--main-bg-color);
+
+    /* text color */
+    color: var(--main-fg-color);
+}
+
+/* links */
+.passage a {
+
+    /* link color */
+    color: var(--main-lk-color);
 }
