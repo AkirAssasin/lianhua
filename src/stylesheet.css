@@ -11,13 +11,8 @@
     --main-lk-color: #e091c2;
 }
 
-/* hide menu items */
-#menu-item-saves, #menu-item-restart {
-	display: none;
-}
-
-/* hide the entire menu */
-#menu-core {
+/* hide save button */
+#menu-item-saves {
 	display: none;
 }
 

@@ -9,6 +9,7 @@ tweego -o output.html src
 Use this to link to another passage: [[A passage in another file]]
 Or if you want to use different text for the [[link -> A passage with no tags]]
 [[Personality Test]]
+[[Act 1 Intro]]
 
 :: A passage with no tags
 Content of the "A passage with no tags" passage.
