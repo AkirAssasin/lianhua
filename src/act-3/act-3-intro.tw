@@ -1,0 +1,61 @@
+:: Act 3 Intro 1
+
+"So much for a hero," the demon lord arrogantly taunts, as you lay on the ground. The large crowd of wild demons drunkenly cheer for the him, and the cacophony of noise drowns out [[your thoughts -> Act 3 Intro 2]].
+
+:: Act 3 Intro 2
+
+Your defeat seems inevitable - but just then, the mark on your forehead turns warm. As the heat progresses to burning hot, the world turns to a stop. 
+
+A [[familiar voice -> Act 3 Intro 3]] rings in your ears.
+
+:: Act 3 Intro 3
+
+"Ahem. This is the short message prepared by me, to be played when the demon lord presumably stomps over the hero. I'm sure things are tough right now, but just do everything you can and things will go fine."
+
+The voice goes silent for a while.
+
+"Wait, the message isn't ending."
+
+"Oh, I still have time. Well, what do I say now?"
+
+"Right, okay, I might as well let you know why this happened in the first place. He's the Bull Demon Lord, me and my pal got drunk and accidentally broke him out of his prison. I don't have the time to go down from heaven to deal with that, so that's where you come in. Yeah, that's it. Don't let anyone else know, alright?"
+
+[[More silence ensues -> Act 3 Intro 4]].
+
+:: Act 3 Intro 4
+
+"Man, this prepaid plan sure is long. Might as well give you a hint. Only a hint, because I'm not supposed to intervene so much into mortal lives, got it? And it has to be cryptic and all."
+
+"You're called the Lotus Hero for a reason. The lotus grows in the mud, takes nutrients from it, but the flower blooms pure and free from the mud. In this case, the holy weapon is like the mu-"
+
+The voice ends abruptly, and the world [[resumes its course -> Act 3 Finale]].
+
+:: Act 3 Finale
+
+The wild cheering and noise from the demons around you returns to your ears.
+
+The demon lord smashes the lid off a wine jug with his axe, and empties it into his mouth. As he ponders how to deal with you, a nearby demon gives a suggestion.
+
+"Demon Lord! If the weapon is the only thing that can defeat you, why not just take it away? Then the hero will be useless," the demon shouts, his hundred eyes blinking in succession.
+
+"Brilliant!" The demon lord bellows, and begins walking towards you. The situation is as dire as before, but the deity's message has left you thinking that you might have a chance.
+
+You lift yourself up the ground and...
+
+<<include [[Act 3 Finale Choices]]>>
+
+:: Act 3 Finale Choices
+
+<<if $traitI > $traitE>> \
+<<if $traitJ > $traitP>> \
+<<include [[Act 3 Bard Choices]]>> \
+<<else>> \
+<<include [[Act 3 Monk Choices]]>> \
+<</if>> \
+<<else>> \
+<<if $traitJ > $traitP>> \
+<<include [[Act 3 Ninja Choices]]>> \
+<<else>> \
+<<include [[Act 3 Taoist Choices]]>> \
+<</if>> \
+<</if>>

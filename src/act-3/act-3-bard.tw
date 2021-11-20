@@ -1,0 +1,30 @@
+/* note: this is for the taoist, forced to be a bard */
+
+:: Act 3 Bard Choices
+
+[[... start playing every song that you can recall. -> Act 3 Bard Good]]
+[[... try to see into the demon lord's heart. -> Act 3 Bard Bad]]
+
+:: Act 3 Bard Good
+
+You start playing every song that you can recall - songs you've heard throughout your adventure, songs sung by others, everything. Surely one of these songs will hook onto the demons' hearts...
+
+As you play, the wild crowd of drunken demons slowly quiet down. You can hear them muttering to themselves.
+
+"That's the country song my Ma used to sing to me..."
+
+"That's the performance I heard when I snuck into a village once..."
+
+The calm atmosphere among the demons seems to affect the demon lord, as his steps get slower. Eventually, he reaches you and snatches the holy flute away.
+
+"Hey, I got the holy flute now, let's continue where we left off!"
+
+His statement was met with no response, as the demons, now longing for something else, no longer have any heart for chaos. Thus, the demon lord has no choice but to end his destructive celebration.
+
+:: Act 3 Bard Bad
+
+You try your hardest to see into the demon lord's heart. No matter where you observe, however, the demon lord shows no emotional weakness.
+
+He really seems to have perfected his poker face.
+
+<<include [[Act 3 Finale Choices]]>>

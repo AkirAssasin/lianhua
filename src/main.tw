@@ -1,19 +1,12 @@
 :: Start
-This is the beginning of the story.
-Use this to ''bold text''.
-Use this for //italic text//.
 
-to compile, use:
-tweego -o output.html src
+I want to be a [[Taoist -> Start][$traitI = 1; $traitE = 0; $traitJ = 1; $traitP = 0]] but I became a Bard instead.
 
-Use this to link to another passage: [[A passage in another file]]
-Or if you want to use different text for the [[link -> A passage with no tags]]
-[[Personality Test]]
+I want to be a [[Bard -> Start][$traitI = 0; $traitE = 1; $traitJ = 0; $traitP = 1]] but I became a Taoist instead.
+
+I want to be a [[Ninja -> Start][$traitI = 1; $traitE = 0; $traitJ = 0; $traitP = 1]] but I became a Monk instead.
+
+I want to be a [[Monk -> Start][$traitI = 0; $traitE = 1; $traitJ = 1; $traitP = 0]] but I became a Ninja instead.
+
 [[Act 1 Intro]]
-
-:: A passage with no tags
-Content of the "A passage with no tags" passage.
-
-:: A tagged passage with three tags [alfa bravo charlie]
-Content of the "A tagged passage with three tags" passage.
-The three tags are: alfa, bravo, charlie.
+[[Act 3 Intro 1]]
