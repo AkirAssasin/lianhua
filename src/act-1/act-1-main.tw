@@ -4,8 +4,6 @@ An ancient prophecy told from fathers to sons, of when one day the demon lord wi
 But there is always balance in the universe, a hero bearing a lotus birth mark will be born. 
 With great courage and his holy weapon, he will defeat the demon lord and [[ bring back peace to the lands. -> Act 1 Intro 2 ]]
 
-[[skip -> Act 1 Part 1]]
-
 :: Act 1 Intro 2
 
 “Oi! Are you sure this is the right way?”(W)
@@ -67,15 +65,15 @@ Wang(temp) grins excitedly
 They both look at you and waits for your response.
 
 
-[[ We can’t let our guard down, let’s quickly take them down while being cautious of our surroundings just in case. -> Act 1 Part 1 Choice I][ $traitI += 1 ]]
-[[ Yo it’s just 3 bears, let’s take them down quickly and then break for lunch. I call dibs on the left. -> Act 1 Part 1 Choice E][ $traitE += 1 ]]
+[[ We can’t let our guard down, let’s quickly take them down while being cautious of our surroundings just in case. -> Act 1 Part 1 Choice I]]
+[[ Yo it’s just 3 bears, let’s take them down quickly and then break for lunch. I call dibs on the left. -> Act 1 Part 1 Choice E]]
 
 :: Act 1 Part 1 Choice I
-
+<<set $traitI += 1>>\
 You and your friends get into your usual formation and [[take out the bears systematically with precision and seasoned strikes. -> Act 1 Part 1 After Choice]]
 
 :: Act 1 Part 1 Choice E
-
+<<set $traitE += 1>>\
 You and the party dash out of cover catching the bears by surprise. 
 Exposed and unable to react fast enough, the [[bear fell to your fierce strikes -> Act 1 Part 1 After Choice]]
 
@@ -94,17 +92,17 @@ After making sure that it’s safe, [[you continue on with your journey. -> Act 
 Being the 19th time you are hearing this conversation, you start to feel a need to decide.
 
 
-[[ It’s tiring, but you trust Hao(temp) in his intuition. Usually… You have faith in him and want to persevere! -> Act 1 Part 2 Choice I][ $traitI += 1 ]]
-[[ It’s tiring and my legs hurt. Maybe a small rest will also shut Wang(temp) up for a while. -> Act 1 Part 2 Choice E][ $traitE += 1 ]]
+[[ It’s tiring, but you trust Hao(temp) in his intuition. Usually… You have faith in him and want to persevere! -> Act 1 Part 2 Choice I]]
+[[ It’s tiring and my legs hurt. Maybe a small rest will also shut Wang(temp) up for a while. -> Act 1 Part 2 Choice E]]
 
 :: Act 1 Part 2 Choice I
-
+<<set $traitI += 1>>\
 You assure Wang(temp) that you also feel that we are getting close, just a few more steps 
 till we reach the cave! However, that motivational speech only lasted for a few more minutes 
 before giving up and taking a [[long rest on the side of the path. -> Act 1 Part 2 After Choice]]
 
 :: Act 1 Part 2 Choice E
-
+<<set $traitE += 1>>\
 You suggest that we take a sorely needed break. It didn’t take much convincing to get the whole party to [[take a quick pit stop. -> Act 1 Part 2 After Choice]]
 
 :: Act 1 Part 2 After Choice
