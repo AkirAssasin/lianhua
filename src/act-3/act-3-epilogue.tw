@@ -1,0 +1,31 @@
+:: Act 3 Failure
+
+Before you could try anything else, Niu Mo Wang tears the holy weapon away from you, and throws it far into the distance. Spent and powerless, you watch as the cacophony of demons continue their procession of destruction to celebrate the demon lord's escape.
+
+Legend has it that they laid waste to every town they passed through for 7 days and 7 nights, until the great deity decided to descend and drag the demon lord back to his prison. Perhaps, if you can understand the reason you were chosen, things would have turn out differently...
+
+:: Act 3 Success
+
+And thus the journey of the Lotus Hero comes to an end.
+
+<<include `"Act 3 " + $wrongClass.toUpperFirst() + " Legend"`>> Yet, you know it is only possible because you did not constrain yourself to how a normal $wrongClass would act, as the master had done.
+
+Such is the true lesson of the Lotus Hero - to bloom untainted, free from the mud of expectations.
+
+//''END''//
+
+:: Act 3 Bard Legend
+
+Legend has it that the Hero, so wise in the ways of the Bard, serenaded all the demons and quelled their hearts. 
+
+:: Act 3 Monk Legend
+
+Legend has it that the Hero, so wise in the ways of the Monk, faith empowering every blow struck. 
+
+:: Act 3 Ninja Legend
+
+Legend has it that the Hero, so wise in the ways of the Ninja, pierced the demon lord, who no other could injure. 
+
+:: Act 3 Taoist Legend
+
+Legend has it that the Hero, so wise in the ways of the Taoist, overwhelmed the demons with a force they could not resist. 
