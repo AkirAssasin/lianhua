@@ -1,0 +1,18 @@
+/* note: this is for the Taoist, forced to be a Bard */
+
+:: Act 2 Bard Choices 2
+
+[[... you tap into the demon lord's history and played a soulful tune to make them wave -> Act 2 Bard Good 2]]
+[[... you play the same chilling tune that the Master Bard played -> Act 2 Bard Bad 2]]
+
+:: Act 2 Bard Good 2
+the demon lord has read the prophecy and sealed away their memories - any tune you play has no effect whatsoever [[on them->Act 3 Intro 1]]
+
+
+:: Act 2 Bard Bad 2
+
+the chilling tune does nothing, perhaps because a tune must be crafted based on the [[situation and target->Act 3 Intro 1]]
+the demon lord continues his devastation
+
+
+<<include [[Act 2 Finale Choices]]>>

@@ -3,7 +3,7 @@
 “What!!! All this effort for this? And it’s not even a weapon I’m comfortable with.” 
 “What am I going to do now? “
 “Is there no other choice but to use this weapon?” looking towards the celing of the cave hoping the Great Deity would appear before you and give you the answer?
-After staring at the ceiling for a few mins at the ceiling with no response, the hero understood that there is no other way. Soon after, your party members entered the room asking what happen, well realizing what is in your hand with your [[expression darken -> -> Act 2 Intro 2]].
+After staring at the ceiling for a few mins at the ceiling with no response, the hero understood that there is no other way. Soon after, your party members entered the room asking what happen, well realizing what is in your hand with your [[expression darken -> Act 2 Intro 2]].
 
 :: Act 2 Intro 2
 
@@ -16,7 +16,7 @@ Your friends looked at each other for a second before bursting out into laughter
 
 :: Act 2 Intro 3
 
-After exiting the cave, you quickly release messaging pigeons to deliver the message to the empire. “We have found the holy weapon, but it is a weapon I am used to. Please send someone who is skilled in the area of "weapon" to train me”
+After exiting the cave, you quickly release messaging pigeons to deliver the message to the empire. “We have found the holy weapon, but it is a weapon I am used to. Please send someone who is skilled in the area of <<= $wrongClass.toUpperFirst()>> and <<= $wrongWeapon.toUpperFirst()>> to train me”
 
 Surpisingly a trainer has arrived the next day. 
 
@@ -27,14 +27,14 @@ Surpisingly a trainer has arrived the next day.
 
 <<if $traitI > $traitE>> \
 <<if $traitJ > $traitP>> \
-<<include [[Act 2 Bard Choices]]>> \
+<<include [[Act 2 Bard Choices 1]]>> \
 <<else>> \
-<<include [[Act 2 Monk Choices]]>> \
+<<include [[Act 2 Monk Choices 1]]>> \
 <</if>> \
 <<else>> \
 <<if $traitJ > $traitP>> \
-<<include [[Act 2 Ninja Choices]]>> \
+<<include [[Act 2 Ninja Choices 1]]>> \
 <<else>> \
-<<include [[Act 2 Taoist Choices]]>> \
+<<include [[Act 2 Taoist Choices 1]]>> \
 <</if>> \
 <</if>>
