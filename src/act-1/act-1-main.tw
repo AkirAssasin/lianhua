@@ -4,6 +4,8 @@ An ancient prophecy told from fathers to sons, of when one day the demon lord wi
 But there is always balance in the universe, a hero bearing a lotus birth mark will be born. 
 With great courage and his holy weapon, he will defeat the demon lord and [[ bring back peace to the lands. -> Act 1 Intro 2 ]]
 
+[[Debug Skip -> Act 1 End]]
+
 :: Act 1 Intro 2
 
 “Oi! Are you sure this is the right way?”(W)
@@ -165,16 +167,39 @@ your tank got splashed by a confusion potion trap and starts going crazy
 
 :: Act 1 End
 
-you found the <<if $traitI > $traitE>> \
+<<if $traitI > $traitE>> \
 <<if $traitJ > $traitP>> \
-[[ holy weapon -> IJ Holy Weapon ]] \
+<<set $trueClass to "taoist">> \
+<<set $trueWeapon to "sword">> \
+<<set $wrongClass to "bard">> \
+<<set $wrongWeapon to "flute">> \
 <<else>> \
-[[ holy weapon -> IP Holy Weapon ]] \
+<<set $trueClass to "ninja">> \
+<<set $trueWeapon to "kunai">> \
+<<set $wrongClass to "monk">> \
+<<set $wrongWeapon to "scroll">> \
 <</if>> \
 <<else>> \
 <<if $traitJ > $traitP>> \
-[[ holy weapon -> EJ Holy Weapon ]] \
+<<set $trueClass to "monk">> \
+<<set $trueWeapon to "scroll">> \
+<<set $wrongClass to "ninja">> \
+<<set $wrongWeapon to "kunai">> \
 <<else>> \
-[[ holy weapon -> EP Holy Weapon ]] \
+<<set $trueClass to "bard">> \
+<<set $trueWeapon to "flute">> \
+<<set $wrongClass to "taoist">> \
+<<set $wrongWeapon to "sword">> \
 <</if>> \
-<</if>>
+<</if>> \
+
+Although the dungeon is challenging, for a seasoned adventurer like you, there were no life threatening events.
+As a $trueClass, you comfortably grip your $trueWeapon, confident that with it by your side, you can even take down an earth dragon.
+
+A faint whistle attracts your attention, and lures you to a small inlet in the wall, cleverly hidden.
+You enter the hole in a trance and notice a silver glowing orb on a pedestal in the center of the room.
+You approach the orb and take it.
+It melts and molds into a different shape at your touch.
+
+[[You found-> Act 2 Intro 1]] the Holy <<= $wrongWeapon.toUpperFirst()>>.
+//You found the [[Holy <<= $wrongWeapon>>.-> Act 2 Intro 1]]
