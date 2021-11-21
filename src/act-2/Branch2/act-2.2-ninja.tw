@@ -1,0 +1,23 @@
+/* note: this is for the monk, forced to be a Ninja */
+
+:: Act 2 Ninja Choices 2
+
+[[... run toward the demon lord to assassinate him -> Act 2 Ninja Good]]
+[[... hide in the shadow and wait for an opportunity -> Act 2 Ninja Bad]]
+
+:: Act 2 Ninja Good
+
+Unholy Regen ability, kunai can't out-damage the heals
+
+the demon lord has read the prophecy and sacrificed countless men to become invincible from [[your attacks->Act 3 Intro 1]]!
+
+
+:: Act 2 Ninja Bad
+
+the demon lord laughs at your attempt
+to use the [[holy weapon-> Act 3 Intro 1]]
+
+you can't even use it right!
+
+
+<<include [[Act 2 Finale Choices]]>>

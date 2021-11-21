@@ -1,0 +1,18 @@
+/* note: this is for the ninja, forced to be a Monk */
+
+:: Act 2 Monk Choices 1
+
+Master Monk began by talking about a noble sect where killing is not the way. And the union of the Monk sect 18 luo han group, who are strong enough to defeat most evildoers. They would have been sent if not for old age ”cough”. In the past the Monks are…….
+As you sit there bore out your mind, wondering when he will stop talking about his life and began to teach him what he came here to do . He finally asked “do have any question for me
+
+[[... you chant a blessing for the safety of Master Priest and nearby onlookers -> Act 2 Monk Good 1]]
+[[... you offer a silent prayer for the strength to defeat your enemies -> Act 2 Monk Bad 1]]
+
+:: Act 2 Monk Good 1
+
+The villages was energized to the point where it seem to do muscle man pose. The monster was disgusted by it and left. The master priest is glad that you understood the meaning of being a Monk and began teaching you ways to make it [[more effective ->  Act 2 Convertion 1]]. 
+
+:: Act 2 Monk Bad 1
+
+Master Priest is disappointed, canceling your chant and said “a priest is supposed to enhance your allies, one man cannot do [[everything himself ->  Act 2 Monk Choices 1]]”
+

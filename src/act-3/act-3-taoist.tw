@@ -1,11 +1,11 @@
 /* note: this is for the bard, forced to be a taoist */
 
-:: Act 3 Taoist Choices
+:: Act 2 Taoist Choices
 
-[[... chain together a haphazard incantation. -> Act 3 Taoist Good]]
-[[... unleash every spell you've ever studied on the demon lord. -> Act 3 Taoist Bad]]
+[[... chain together a haphazard incantation. -> Act 2 Taoist Good]]
+[[... unleash every spell you've ever studied on the demon lord. -> Act 2 Taoist Bad]]
 
-:: Act 3 Taoist Good
+:: Act 2 Taoist Good
 
 Taoist spells are made of individual glyphs, you think to yourself, as you paint onto the talisman paper.
 
@@ -21,10 +21,10 @@ You can no longer feel your arms, but you act tough and point at the hundred-eye
 
 [[The hundred-eyes demon panics and runs, and the rest of the demons follow suit. -> Act 3 Success]]
 
-:: Act 3 Taoist Bad
+:: Act 2 Taoist Bad
 
 You grab whatever talismans you have prepared and cast them at the demon lord. He remains unfazed as everything bounces off his magic shield.
 
 "Your spells are too weak for me, mortal!" He boasts.
 
-<<include [[Act 3 Taoist Choices]]>>
+<<include [[Act 2 Taoist Choices]]>>

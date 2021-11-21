@@ -1,0 +1,22 @@
+/* note: this is for the Ninja, forced to be a Monk */
+
+:: Act 2 Monk Choices 2
+
+[[... you chant a blessing to your teammates  -> Act 2 Monk Good]]
+[[... trying to use the tome to blind the enemy with the binding light from the tome -> Act 2 Monk Bad]]
+
+:: Act 2 Monk Good
+
+Domain expansion, isolates protagonist, he has no one to buff
+
+the demon lord has read the prophecy and learned an ultimate ability to isolate you and [[make you useless->Act 3 Intro 1]]!
+
+
+:: Act 2 Monk Bad
+
+the demon lord laughs at your attempt
+to use the holy weapon
+you can't even [[use it right->Act 3 Intro 1]]!
+
+
+<<include [[Act 2 Finale Choices]]>>

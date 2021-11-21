@@ -1,0 +1,40 @@
+:: Act 2 Intro 1
+
+“What!!! All this effort for this? And it’s not even a weapon I’m comfortable with.” 
+“What am I going to do now? “
+“Is there no other choice but to use this weapon?” looking towards the celing of the cave hoping the Great Deity would appear before you and give you the answer?
+After staring at the ceiling for a few mins at the ceiling with no response, the hero understood that there is no other way. Soon after, your party members entered the room asking what happen, well realizing what is in your hand with your [[expression darken -> Act 2 Intro 2]].
+
+:: Act 2 Intro 2
+
+You replied, “Here it is, THE HOLY WEAPON” well holding it out into the air
+Your friends looked at each other for a second before bursting out into laughter. Some even started to roll on the floor. After a few minutes, they seem to have calmed down and ask where is the real weapon. You replied by raising your eyebrows and looking at the weapon. 
+“SERIOUSLY!” they said in union. 
+“Well we are going to fail” said one of them
+“Not if we start now. Maybe the Deity knew this where my potential at.” trying to bring up the spirt well knowing that cannot be true.
+“Come on let's exit this place, and find me a trainer”, [[you continue -> Act 2 Intro 3]].
+
+:: Act 2 Intro 3
+
+After exiting the cave, you quickly release messaging pigeons to deliver the message to the empire. “We have found the holy weapon, but it is a weapon I am used to. Please send someone who is skilled in the area of <<= $wrongClass.toUpperFirst()>> and <<= $wrongWeapon.toUpperFirst()>> to train me”
+
+Surpisingly a trainer has arrived the next day. 
+
+
+<<include [[Act 2 Finale Choices]]>>
+
+:: Act 2 Finale Choices
+
+<<if $traitI > $traitE>> \
+<<if $traitJ > $traitP>> \
+<<include [[Act 2 Bard Choices 1]]>> \
+<<else>> \
+<<include [[Act 2 Monk Choices 1]]>> \
+<</if>> \
+<<else>> \
+<<if $traitJ > $traitP>> \
+<<include [[Act 2 Ninja Choices 1]]>> \
+<<else>> \
+<<include [[Act 2 Taoist Choices 1]]>> \
+<</if>> \
+<</if>>
