@@ -202,4 +202,4 @@ You approach the orb and take it.
 It melts and molds into a different shape at your touch.
 
 [[You found-> Act 2 Intro 1]] the Holy <<= $wrongWeapon.toUpperFirst()>>.
-//You found the [[Holy <<= $wrongWeapon>>.-> Act 2 Intro 1]]
+You found the <<link `"Holy " + $wrongWeapon.toUpperFirst()` "Act 2 Intro 1">><</link>>
