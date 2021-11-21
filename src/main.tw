@@ -8,5 +8,8 @@ I want to be a [[Ninja -> Start][$traitI = 1; $traitE = 0; $traitJ = 0; $traitP 
 
 I want to be a [[Monk -> Start][$traitI = 0; $traitE = 1; $traitJ = 1; $traitP = 0]] but I became a Ninja instead.
 
+You wanted to become a $trueClass and get a $trueWeapon, but you will become a $wrongClass and receive the holy $wrongWeapon.
+Capitalized example: <<= $wrongClass.toUpperFirst()>> and <<= $wrongWeapon.toUpperFirst()>>
+
 [[Act 1 Intro]]
 [[Act 3 Intro 1]]

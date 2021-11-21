@@ -38,3 +38,30 @@ caption
 <<set $traitP = 0>>
 
 /* TBD: StoryInterface to make old passages show up at the back? */
+
+:: PassageHeader
+<<if $traitI > $traitE>> \
+<<if $traitJ > $traitP>> \
+<<set $trueClass to "taoist">> \
+<<set $trueWeapon to "sword">> \
+<<set $wrongClass to "bard">> \
+<<set $wrongWeapon to "flute">> \
+<<else>> \
+<<set $trueClass to "ninja">> \
+<<set $trueWeapon to "kunai">> \
+<<set $wrongClass to "monk">> \
+<<set $wrongWeapon to "scroll">> \
+<</if>> \
+<<else>> \
+<<if $traitJ > $traitP>> \
+<<set $trueClass to "monk">> \
+<<set $trueWeapon to "scroll">> \
+<<set $wrongClass to "ninja">> \
+<<set $wrongWeapon to "kunai">> \
+<<else>> \
+<<set $trueClass to "bard">> \
+<<set $trueWeapon to "flute">> \
+<<set $wrongClass to "taoist">> \
+<<set $wrongWeapon to "sword">> \
+<</if>> \
+<</if>> \

@@ -1,0 +1,182 @@
+:: Act 1 Intro
+
+An ancient prophecy told from fathers to sons, of when one day the demon lord will reappear again and wreak havoc on these lands. 
+But there is always balance in the universe, a hero bearing a lotus birth mark will be born. 
+With great courage and his holy weapon, he will defeat the demon lord and [[ bring back peace to the lands. -> Act 1 Intro 2 ]]
+
+[[skip -> Act 1 Part 1]]
+
+:: Act 1 Intro 2
+
+“Oi! Are you sure this is the right way?”(W)
+“Ya! The old man said it was this way!”(H)
+
+An argument between (your friends) Wang(temp) and Hao(temp) interrupted your nostalgic recollection of the story your father 
+used to tell you before putting you to bed. Glowing in that warm feeling, your thoughts drifted further to the cause of it, 
+the [[events that had happened yesterday. -> Act 1 Intro 3]]
+
+:: Act 1 Intro 3
+
+Catching your breath with your friends after fulfilling a request to exterminate some wolves in the forest. 
+An evil laughter resounded and the earth trembled as you clung to the ground beneath you for safety. 
+Glancing at your friends to see that they are just as confused as you, darkness covered the trees around you as a tide of 
+black clouds washed in from the west and blocked the skies till no blue can be seen even past the horizon.
+
+Just as you try to calm the panic in your party, a ray of light pierces the black clouds and shines in front of you. 
+[[A translucent ethereal figure appears before you with a golden glow. -> Act 1 Intro 4]]
+
+:: Act 1 Intro 4
+
+His voice, deep like a gong,
+“You my boy, you! A great disaster has fallen into this world! YOU! It is your destiny! You must stop this great evil!”
+
+In shock and awe you and friends kneel instantly and pay your respects immediately for you know that this is a great 
+deity and them appearing in front of mortals are rarer than 2 moons in the night sky.
+
+“No time for the formalities my boy! You must journey quickly to bingbong(temp) cave and acquire the sleeping 
+thousand souls(holy weapon)! Afterwards head west to the [[source of this calamity -> Act 1 Intro 5]] and bring peace to this land!”
+
+:: Act 1 Intro 5
+
+Summoning courage from within, you timidly ask
+“Great Deity, do you know what exactly is this great calamity you describe?”
+
+
+He chokes at your sudden question and clears his throat
+“Ahem! Uhhhh… Most disastrously, the seal containing the great demon Niu Mo Wang was weakened when someone split heavenly wine near it 
+and thus he broke free and escaped!”(D)
+His eyes darts about as he explains.
+You could almost see a bead of sweat form on his head, but it could also be the blinding golden glow blurring your vision.
+
+“Anyways my boy! He must be stopped quickly, else him and his band of followers will wreak havoc till there’s nothing left! 
+Take my mark and go forth with courage and your friends! I must go now, I pray for your good fortune my boy!”
+
+He urges you and fades away.
+
+You and friends stand in darkness and silence for a while to [[recompose your senses for a while. -> Act 1 Part 1]]
+
+:: Act 1 Part 1
+
+The musty smell and growling of beasts shock you back to your senses from daydreaming again. 
+You focus on your surroundings and see your friends tense up as your party creeps up to a pack of bears resting in the center of a clearing.
+
+“Alright, 3 bears in the open. Seems we haven’t been noticed yet. What should we do?”
+Hao(temp) asks
+“They don’t look fully grown yet, each of us can solo one!”
+Wang(temp) grins excitedly
+They both look at you and waits for your response.
+
+
+[[ We can’t let our guard down, let’s quickly take them down while being cautious of our surroundings just in case. -> Act 1 Part 1 Choice I][ $traitI += 1 ]]
+[[ Yo it’s just 3 bears, let’s take them down quickly and then break for lunch. I call dibs on the left. -> Act 1 Part 1 Choice E][ $traitE += 1 ]]
+
+:: Act 1 Part 1 Choice I
+
+You and your friends get into your usual formation and [[take out the bears systematically with precision and seasoned strikes. -> Act 1 Part 1 After Choice]]
+
+:: Act 1 Part 1 Choice E
+
+You and the party dash out of cover catching the bears by surprise. 
+Exposed and unable to react fast enough, the [[bear fell to your fierce strikes -> Act 1 Part 1 After Choice]]
+
+:: Act 1 Part 1 After Choice
+
+Your party does a quick check of the aftermath of the battle and surroundings. 
+After making sure that it’s safe, [[you continue on with your journey. -> Act 1 Part 2]]
+
+:: Act 1 Part 2
+
+“We have been walking for hours and we haven’t reach the checkpoint yet! Just admit that we are lost!”(W)
+“We are not! Now shut up! So noisy! Can’t concentrate on walking with all your yakking!”(H)
+“I’m tireeeeeeeeeed”(W)
+“We are almost reaching the cave! Once there we can rest outside!”(H)
+
+Being the 19th time you are hearing this conversation, you start to feel a need to decide.
+
+
+[[ It’s tiring, but you trust Hao(temp) in his intuition. Usually… You have faith in him and want to persevere! -> Act 1 Part 2 Choice I][ $traitI += 1 ]]
+[[ It’s tiring and my legs hurt. Maybe a small rest will also shut Wang(temp) up for a while. -> Act 1 Part 2 Choice E][ $traitE += 1 ]]
+
+:: Act 1 Part 2 Choice I
+
+You assure Wang(temp) that you also feel that we are getting close, just a few more steps 
+till we reach the cave! However, that motivational speech only lasted for a few more minutes 
+before giving up and taking a [[long rest on the side of the path. -> Act 1 Part 2 After Choice]]
+
+:: Act 1 Part 2 Choice E
+
+You suggest that we take a sorely needed break. It didn’t take much convincing to get the whole party to [[take a quick pit stop. -> Act 1 Part 2 After Choice]]
+
+:: Act 1 Part 2 After Choice
+
+Finally after a few more ‘we’re almost reaching!’ speeches, you and your party arrive at a cave opening protruding beneath a hill. 
+Green glowing moss lines the sides as wind unnaturally whistles out of the cave’s mouth.
+
+“Well we are here, not ominous at all nope!”(You)
+“What kind of crazy person buries a holy artifact in a sea of ocean?!”(W)
+“Those kinds of people you are calling crazy get to ascend to the heavens as immortals. We mortals won’t understand their thinking anyway.”(H)
+
+With such feelings, you and your friends enter the cave, excited yet nervous for what you could possibly encounter in such a remote location.
+Thanks to years of being untouched by man, the glowing moss has 
+
+[[WIP from here-> Act 1 Part 3]]
+
+:: Act 1 Part 3
+
+2 pathways open up
+they look similar and the team can't decide which one to take
+
+[[ We all should vote and decide which one to take -> Act 1 Part 4 ][ $traitI += 1 ]]
+[[ Guys, i trust my instinct, its this one, follow me! -> Act 1 Part 4 ][ $traitE += 1 ]]
+
+:: Act 1 Part 4
+
+Discover a suspicious chest, your hunter says "it looks safe i guess"
+
+<<if $traitI > $traitE>> \
+[[ ask him to check again seriously and confirm plus chop it's safe -> Act 1 Part 5 ][ $traitJ += 1 ]]
+[[ use your weapon to poke it to confirm the safety too before opening -> Act 1 Part 5 ][ $traitP += 1 ]]
+<<else>> \
+[[ have your mage use check sus skill to confirm too -> Act 1 Part 5 ][ $traitJ += 1 ]]
+[[ trust my dude yo, he's got experience and never wrong before -> Act 1 Part 5 ][ $traitP += 1 ]]
+<</if>>
+
+:: Act 1 Part 5
+
+walk into a cave, but it was a trap, surrounded by monsters
+
+<<if $traitI > $traitE>> \
+[[ calm yourself and start preparing for battle like you practiced before -> Act 1 Part 6 ][ $traitJ += 1 ]]
+[[ look around the room for any potential exits or things you can use if things get too dicey -> Act 1 Part 6 ][ $traitP += 1 ]]
+<<else>> \
+[[ dont panic guys, the monsters aren't strong individually, follow my lead and take them out one by one -> Act 1 Part 6 ][ $traitJ += 1 ]]
+[[ don't panic guys, cover each other like usual and follow my lead, we can get a better advantage fighting them over there. -> Act 1 Part 6 ][ $traitP += 1 ]]
+<</if>>
+
+:: Act 1 Part 6
+
+your tank got splashed by a confusion potion trap and starts going crazy
+
+<<if $traitI > $traitE>> \
+[[ restrain him with a rope and knock him unconscious so he doesn't hurt himself -> Act 1 End ][ $traitJ += 1 ]]
+[[ restrain him with rope and wait till the effect wears off, take a small break, kit kat -> Act 1 End ][ $traitP += 1 ]]
+<<else>> \
+[[ restrain him with a rope, but calm him down with some tea and snacks -> Act 1 End ][ $traitJ += 1 ]]
+[[ restrain him with a rope, but talk and calm him down till the effect wears off -> Act 1 End ][ $traitP += 1 ]]
+<</if>>
+
+:: Act 1 End
+
+you found the <<if $traitI > $traitE>> \
+<<if $traitJ > $traitP>> \
+[[ holy weapon -> IJ Holy Weapon ]] \
+<<else>> \
+[[ holy weapon -> IP Holy Weapon ]] \
+<</if>> \
+<<else>> \
+<<if $traitJ > $traitP>> \
+[[ holy weapon -> EJ Holy Weapon ]] \
+<<else>> \
+[[ holy weapon -> EP Holy Weapon ]] \
+<</if>> \
+<</if>>
