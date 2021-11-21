@@ -1,78 +1,78 @@
-:: Act 1 Intro
-
-Demon lord has revived
-You and party are here to [[ find holy weapon -> Act 1 Part 1 ]]
-
-:: Act 1 Part 1
-
-You and the party see a group of monsters that look easy to solo
-
-[[ stick to strategy and play safe my dudes -> Act 1 Part 2 ][ $traitI += 1 ]]
-[[ We don't need strategy let's goo bois -> Act 1 Part 2 ][ $traitE += 1 ]]
-
-:: Act 1 Part 2
-
-Approaching a rest point, but everyone looks almost tired
-
-[[ We're almost there, just hang on! -> Act 1 Part 3 ][ $traitI += 1 ]]
-[[ let's just rest here on the spot since it seems safe -> Act 1 Part 3 ][ $traitE += 1 ]]
-
-:: Act 1 Part 3
-
-2 pathways open up
-they look similar and the team can't decide which one to take
-
-[[ We all should vote and decide which one to take -> Act 1 Part 4 ][ $traitI += 1 ]]
-[[ Guys, i trust my instinct, its this one, follow me! -> Act 1 Part 4 ][ $traitE += 1 ]]
-
-:: Act 1 Part 4
-
-Discover a suspicious chest, your hunter says "it looks safe i guess"
-
-<<if $traitI > $traitE>> \
-[[ ask him to check again seriously and confirm plus chop it's safe -> Act 1 Part 5 ][ $traitJ += 1 ]]
-[[ use your weapon to poke it to confirm the safety too before opening -> Act 1 Part 5 ][ $traitP += 1 ]]
-<<else>> \
-[[ have your mage use check sus skill to confirm too -> Act 1 Part 5 ][ $traitJ += 1 ]]
-[[ trust my dude yo, he's got experience and never wrong before -> Act 1 Part 5 ][ $traitP += 1 ]]
-<</if>>
-
-:: Act 1 Part 5
-
-walk into a cave, but it was a trap, surrounded by monsters
-
-<<if $traitI > $traitE>> \
-[[ calm yourself and start preparing for battle like you practiced before -> Act 1 Part 6 ][ $traitJ += 1 ]]
-[[ look around the room for any potential exits or things you can use if things get too dicey -> Act 1 Part 6 ][ $traitP += 1 ]]
-<<else>> \
-[[ dont panic guys, the monsters aren't strong individually, follow my lead and take them out one by one -> Act 1 Part 6 ][ $traitJ += 1 ]]
-[[ don't panic guys, cover each other like usual and follow my lead, we can get a better advantage fighting them over there. -> Act 1 Part 6 ][ $traitP += 1 ]]
-<</if>>
-
-:: Act 1 Part 6
-
-your tank got splashed by a confusion potion trap and starts going crazy
-
-<<if $traitI > $traitE>> \
-[[ restrain him with a rope and knock him unconscious so he doesn't hurt himself -> Act 1 End ][ $traitJ += 1 ]]
-[[ restrain him with rope and wait till the effect wears off, take a small break, kit kat -> Act 1 End ][ $traitP += 1 ]]
-<<else>> \
-[[ restrain him with a rope, but calm him down with some tea and snacks -> Act 1 End ][ $traitJ += 1 ]]
-[[ restrain him with a rope, but talk and calm him down till the effect wears off -> Act 1 End ][ $traitP += 1 ]]
-<</if>>
-
-:: Act 1 End
-
-you found the <<if $traitI > $traitE>> \
-<<if $traitJ > $traitP>> \
-[[ holy weapon -> IJ Holy Weapon ]] \
-<<else>> \
-[[ holy weapon -> IP Holy Weapon ]] \
-<</if>> \
-<<else>> \
-<<if $traitJ > $traitP>> \
-[[ holy weapon -> EJ Holy Weapon ]] \
-<<else>> \
-[[ holy weapon -> EP Holy Weapon ]] \
-<</if>> \
-<</if>>
+//:: Act 1 Intro
+//
+//Demon lord has revived
+//You and party are here to [[ find holy weapon -> Act 1 Part 1 ]]
+//
+//:: Act 1 Part 1
+//
+//You and the party see a group of monsters that look easy to solo
+//
+//[[ stick to strategy and play safe my dudes -> Act 1 Part 2 ][ $traitI += 1 ]]
+//[[ We don't need strategy let's goo bois -> Act 1 Part 2 ][ $traitE += 1 ]]
+//
+//:: Act 1 Part 2
+//
+//Approaching a rest point, but everyone looks almost tired
+//
+//[[ We're almost there, just hang on! -> Act 1 Part 3 ][ $traitI += 1 ]]
+//[[ let's just rest here on the spot since it seems safe -> Act 1 Part 3 ][ $traitE += 1 ]]
+//
+//:: Act 1 Part 3
+//
+//2 pathways open up
+//they look similar and the team can't decide which one to take
+//
+//[[ We all should vote and decide which one to take -> Act 1 Part 4 ][ $traitI += 1 ]]
+//[[ Guys, i trust my instinct, its this one, follow me! -> Act 1 Part 4 ][ $traitE += 1 ]]
+//
+//:: Act 1 Part 4
+//
+//Discover a suspicious chest, your hunter says "it looks safe i guess"
+//
+//<<if $traitI > $traitE>> \
+//[[ ask him to check again seriously and confirm plus chop it's safe -> Act 1 Part 5 ][ $traitJ += 1 ]]
+//[[ use your weapon to poke it to confirm the safety too before opening -> Act 1 Part 5 ][ $traitP += 1 ]]
+//<<else>> \
+//[[ have your mage use check sus skill to confirm too -> Act 1 Part 5 ][ $traitJ += 1 ]]
+//[[ trust my dude yo, he's got experience and never wrong before -> Act 1 Part 5 ][ $traitP += 1 ]]
+//<</if>>
+//
+//:: Act 1 Part 5
+//
+//walk into a cave, but it was a trap, surrounded by monsters
+//
+//<<if $traitI > $traitE>> \
+//[[ calm yourself and start preparing for battle like you practiced before -> Act 1 Part 6 ][ $traitJ += 1 ]]
+//[[ look around the room for any potential exits or things you can use if things get too dicey -> Act 1 Part 6 ][ $traitP += 1 ]]
+//<<else>> \
+//[[ dont panic guys, the monsters aren't strong individually, follow my lead and take them out one by one -> Act 1 Part 6 ][ $traitJ += 1 ]]
+//[[ don't panic guys, cover each other like usual and follow my lead, we can get a better advantage fighting them over there. -> Act 1 Part 6 ][ $traitP += 1 ]]
+//<</if>>
+//
+//:: Act 1 Part 6
+//
+//your tank got splashed by a confusion potion trap and starts going crazy
+//
+//<<if $traitI > $traitE>> \
+//[[ restrain him with a rope and knock him unconscious so he doesn't hurt himself -> Act 1 End ][ $traitJ += 1 ]]
+//[[ restrain him with rope and wait till the effect wears off, take a small break, kit kat -> Act 1 End ][ $traitP += 1 ]]
+//<<else>> \
+//[[ restrain him with a rope, but calm him down with some tea and snacks -> Act 1 End ][ $traitJ += 1 ]]
+//[[ restrain him with a rope, but talk and calm him down till the effect wears off -> Act 1 End ][ $traitP += 1 ]]
+//<</if>>
+//
+//:: Act 1 End
+//
+//you found the <<if $traitI > $traitE>> \
+//<<if $traitJ > $traitP>> \
+//[[ holy weapon -> IJ Holy Weapon ]] \
+//<<else>> \
+//[[ holy weapon -> IP Holy Weapon ]] \
+//<</if>> \
+//<<else>> \
+//<<if $traitJ > $traitP>> \
+//[[ holy weapon -> EJ Holy Weapon ]] \
+//<<else>> \
+//[[ holy weapon -> EP Holy Weapon ]] \
+//<</if>> \
+//<</if>>
