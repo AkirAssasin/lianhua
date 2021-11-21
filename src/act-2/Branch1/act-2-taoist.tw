@@ -1,0 +1,19 @@
+/* note: this is for the bard, forced to be a taoist */
+
+:: Act 2 Taoist Choices
+Master bard began by talking about the free spirit, talk about his ex girlfriend is actually the demon lord in disguise, and the one before this one  was nice but cant say no to people, got together for that result but also the reason why they are no longer together, (if you know what I mean).......
+
+[[... ask the Master for a live demonstration -> Act 2 Taoist Good]]
+[[... ask the Master for a manual on what tunes to play and when to play which -> Act 2 Taoist Bad]]
+
+:: Act 2 Taoist Good
+
+As the master bard plays his instrument you touch by the sound of what was played. A drop of tears makes their way down your cheeks. You begin to understand what it means to be a bard. The way of disrupt the enemy’s actions with an appropriate tune
+
+
+:: Act 2 Taoist Bad
+
+Disappointed by the question, he chides you, by answering “The path to the heart is not something that can be done by following a manual. The one that follows it will never understand what it means to be Bard” as began with his lecture of being free spirited.
+
+
+<<include [[Act 2 Finale Choices]]>>

@@ -1,0 +1,24 @@
+:: Act 2 Intro 1
+
+After using the weapon for a while, you have started to get use to the holy weapon. But you knew you have to get better at this to even reach the level of your previous level of the weapon you are used to. Wanting to celebrate a little for the progress you have made. 
+You heard a loud “LET’S MOOOOOOOO AND PARTY!!” as the demon lord proclaims his arrival. As you and your party challenge the demon lord to make him stop.
+
+
+
+<<include [[Act 2 Finale Choices]]>>
+
+:: Act 2 Finale Choices
+
+<<if $traitI > $traitE>> \
+<<if $traitJ > $traitP>> \
+<<include [[Act 2 Bard Choices]]>> \
+<<else>> \
+<<include [[Act 2 Monk Choices]]>> \
+<</if>> \
+<<else>> \
+<<if $traitJ > $traitP>> \
+<<include [[Act 2 Ninja Choices]]>> \
+<<else>> \
+<<include [[Act 2 Taoist Choices]]>> \
+<</if>> \
+<</if>>
