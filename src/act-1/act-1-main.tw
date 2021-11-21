@@ -4,7 +4,7 @@ An ancient prophecy told from fathers to sons, of when one day the demon lord wi
 But there is always balance in the universe, a hero bearing a lotus birth mark will be born. 
 With great courage and his holy weapon, he will defeat the demon lord and [[ bring back peace to the lands. -> Act 1 Intro 2 ]]
 
-[[Debug Skip -> Act 1 End]]
+/*[[Debug Skip -> Act 1 End]]*/
 
 :: Act 1 Intro 2
 
@@ -201,5 +201,4 @@ You enter the hole in a trance and notice a silver glowing orb on a pedestal in 
 You approach the orb and take it.
 It melts and molds into a different shape at your touch.
 
-[[You found-> Act 2 Intro 1]] the Holy <<= $wrongWeapon.toUpperFirst()>>.
-You found the <<link `"Holy " + $wrongWeapon.toUpperFirst()` "Act 2 Intro 1">><</link>>
+You found the <<link `"Holy " + $wrongWeapon.toUpperFirst()` "Act 2 Intro 1">><</link>>.
