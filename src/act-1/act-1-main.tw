@@ -78,8 +78,8 @@ $friend2 stomps the ground in response. “We are not! Now shut up! So noisy! Ca
 
 Being the 19th time you are hearing this conversation, you start to feel a need to decide.
 
-[[ It’s tiring, but you trust $friend2 in his intuition. Usually… You have faith in him and want to persevere! -> Act 1 Part 2 Choice I]]
-[[ It’s tiring and my legs hurt. Maybe a small rest will also shut $friend1 up for a while. -> Act 1 Part 2 Choice E]]
+<<link `"It’s tiring, but you trust " + $friend2 + " in his intuition. Usually… You have faith in him and want to persevere!"` "Act 1 Part 2 Choice I">><</link>>
+<<link `"It’s tiring and my legs hurt. Maybe a small rest will also shut " + $friend1 + " up for a while."` "Act 1 Part 2 Choice E">><</link>>
 
 :: Act 1 Part 2 Choice I
 <<set $traitI += 1>>\
