@@ -16,11 +16,6 @@
 	display: none;
 }
 
-/* make images fit into their space */
-img {
-    width: 80%;
-}
-
 /* document element */
 html {
 
@@ -45,4 +40,18 @@ body {
 
     /* link color */
     color: var(--main-lk-color);
+}
+
+/* passages div */
+#passages {
+
+    /* max width */
+    max-width: 650px;
+}
+
+/* remove header margin */
+h1 {
+
+    /* remove margin */
+    margin: 0px 0px;
 }

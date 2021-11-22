@@ -12,14 +12,25 @@ The Lotus Hero
 }
 
 :: StoryAuthor
-author
+Ang Pheng Siang
+Willy Lau
+Loh Chang Zhen
 
 /* banner - relative path from output */
 :: StoryBanner
-[img[Banner|assets/banner.png]]
+<img src="assets/banner.png" width="80%">
 
 :: StoryCaption
-caption
+''Skip to Act 2'' (Debug)
+[[Bard -> Act 2 Intro 1][$traitI = 1; $traitE = 0; $traitJ = 1; $traitP = 0]] - \
+[[Taoist -> Act 2 Intro 1][$traitI = 0; $traitE = 1; $traitJ = 0; $traitP = 1]] - \
+[[Monk -> Act 2 Intro 1][$traitI = 1; $traitE = 0; $traitJ = 0; $traitP = 1]] - \
+[[Ninja -> Act 2 Intro 1][$traitI = 0; $traitE = 1; $traitJ = 1; $traitP = 0]]
+''Skip to Act 3'' (Debug)
+[[Bard -> Act 3 Intro 1][$traitI = 1; $traitE = 0; $traitJ = 1; $traitP = 0]] - \
+[[Taoist -> Act 3 Intro 1][$traitI = 0; $traitE = 1; $traitJ = 0; $traitP = 1]] - \
+[[Monk -> Act 3 Intro 1][$traitI = 1; $traitE = 0; $traitJ = 0; $traitP = 1]] - \
+[[Ninja -> Act 3 Intro 1][$traitI = 0; $traitE = 1; $traitJ = 1; $traitP = 0]]
 
 /* run once on story init 
 */
@@ -28,6 +39,7 @@ caption
 */
 <<script>> 
     config.history.controls = false;
+    config.ui.stowBarInitially = true;
 <</script>>
 
 /* initialize variables
