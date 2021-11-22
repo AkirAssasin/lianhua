@@ -4,52 +4,40 @@ An ancient prophecy told from fathers to sons, of when one day the demon lord wi
 But there is always balance in the universe, a hero bearing a lotus birth mark will be born. 
 With great courage and his holy weapon, he will defeat the demon lord and [[ bring back peace to the lands. -> Act 1 Intro 2 ]]
 
-/*[[Debug Skip -> Act 1 End]]*/
-
 :: Act 1 Intro 2
 
-“Oi! Are you sure this is the right way?”(W)
-“Ya! The old man said it was this way!”(H)
+“Oi! Are you sure this is the right way?”
+“Ya! The old man said it was this way!”
 
-An argument between (your friends) Wang(temp) and Hao(temp) interrupted your nostalgic recollection of the story your father 
-used to tell you before putting you to bed. Glowing in that warm feeling, your thoughts drifted further to the cause of it, 
-the [[events that had happened yesterday. -> Act 1 Intro 3]]
+An argument between your friends, $friend1 and $friend2 interrupted your nostalgic recollection of the story your father used to tell you before putting you to bed. Glowing in that warm feeling, your thoughts drifted further to the cause of it, the [[events that had happened yesterday. -> Act 1 Intro 3]]
 
 :: Act 1 Intro 3
 
 Catching your breath with your friends after fulfilling a request to exterminate some wolves in the forest. 
 An evil laughter resounded and the earth trembled as you clung to the ground beneath you for safety. 
-Glancing at your friends to see that they are just as confused as you, darkness covered the trees around you as a tide of 
-black clouds washed in from the west and blocked the skies till no blue can be seen even past the horizon.
+Glancing at your friends to see that they are just as confused as you, darkness covered the trees around you as a tide of black clouds washed in from the west and blocked the skies till no blue can be seen even past the horizon.
 
 Just as you try to calm the panic in your party, a ray of light pierces the black clouds and shines in front of you. 
 [[A translucent ethereal figure appears before you with a golden glow. -> Act 1 Intro 4]]
 
 :: Act 1 Intro 4
 
-His voice, deep like a gong,
-“You my boy, you! A great disaster has fallen into this world! YOU! It is your destiny! You must stop this great evil!”
+His voice, deep like a gong, “You my boy, you! A great disaster has fallen into this world! YOU! It is your destiny! You must stop this great evil!”
 
-In shock and awe you and friends kneel instantly and pay your respects immediately for you know that this is a great 
-deity and them appearing in front of mortals are rarer than 2 moons in the night sky.
+In shock and awe you and friends kneel instantly and pay your respects immediately for you know that this is a great deity and them appearing in front of mortals are rarer than 2 moons in the night sky.
 
-“No time for the formalities my boy! You must journey quickly to bingbong(temp) cave and acquire the sleeping 
-thousand souls(holy weapon)! Afterwards head west to the [[source of this calamity -> Act 1 Intro 5]] and bring peace to this land!”
+“No time for the formalities my boy! You must journey quickly to this cave and acquire the holy weapon! Afterwards head west to the [[source of this calamity -> Act 1 Intro 5]] and bring peace to this land!”
 
 :: Act 1 Intro 5
 
-Summoning courage from within, you timidly ask
-“Great Deity, do you know what exactly is this great calamity you describe?”
+Summoning courage from within, you timidly ask “Great Deity, do you know what exactly is this great calamity you describe?”
 
+He chokes at your sudden question and clears his throat. “Ahem! Uhhhh… Most disastrously, the seal containing the great demon Niu Mo Wang was weakened when someone split heavenly wine near it and thus he broke free and escaped!”
 
-He chokes at your sudden question and clears his throat
-“Ahem! Uhhhh… Most disastrously, the seal containing the great demon Niu Mo Wang was weakened when someone split heavenly wine near it 
-and thus he broke free and escaped!”(D)
-His eyes darts about as he explains.
-You could almost see a bead of sweat form on his head, but it could also be the blinding golden glow blurring your vision.
+His eyes darts about as he explains. You could almost see a bead of sweat form on his head, but it could also be the blinding golden glow blurring your vision.
 
-“Anyways my boy! He must be stopped quickly, else him and his band of followers will wreak havoc till there’s nothing left! 
-Take my mark and go forth with courage and your friends! I must go now, I pray for your good fortune my boy!”
+“Anyways my boy! He must be stopped quickly, else him and his band of followers will wreak havoc till there’s nothing left!"
+"Take my mark and go forth with courage and your friends! I must go now, I pray for your good fortune my boy!”
 
 He urges you and fades away.
 
@@ -60,12 +48,9 @@ You and friends stand in darkness and silence for a while to [[recompose your se
 The musty smell and growling of beasts shock you back to your senses from daydreaming again. 
 You focus on your surroundings and see your friends tense up as your party creeps up to a pack of bears resting in the center of a clearing.
 
-“Alright, 3 bears in the open. Seems we haven’t been noticed yet. What should we do?”
-Hao(temp) asks
-“They don’t look fully grown yet, each of us can solo one!”
-Wang(temp) grins excitedly
-They both look at you and waits for your response.
-
+“Alright, 3 bears in the open. Seems we haven’t been noticed yet. What should we do?” $friend1 asks.
+“They don’t look fully grown yet, each of us can solo one!” $friend2 grins excitedly.
+They both look at you and wait for your response.
 
 [[ We can’t let our guard down, let’s quickly take them down while being cautious of our surroundings just in case. -> Act 1 Part 1 Choice I]]
 [[ Yo it’s just 3 bears, let’s take them down quickly and then break for lunch. I call dibs on the left. -> Act 1 Part 1 Choice E]]
@@ -86,22 +71,19 @@ After making sure that it’s safe, [[you continue on with your journey. -> Act 
 
 :: Act 1 Part 2
 
-“We have been walking for hours and we haven’t reach the checkpoint yet! Just admit that we are lost!”(W)
-“We are not! Now shut up! So noisy! Can’t concentrate on walking with all your yakking!”(H)
-“I’m tireeeeeeeeeed”(W)
-“We are almost reaching the cave! Once there we can rest outside!”(H)
+“We have been walking for hours and we haven’t reach the checkpoint yet! Just admit that we are lost!” $friend1 whines.
+$friend2 stomps the ground in response. “We are not! Now shut up! So noisy! Can’t concentrate on walking with all your yakking!”
+“I’m tireeeeeeeeeed..."
+“We are almost reaching the cave! Once there we can rest outside!”
 
 Being the 19th time you are hearing this conversation, you start to feel a need to decide.
 
-
-[[ It’s tiring, but you trust Hao(temp) in his intuition. Usually… You have faith in him and want to persevere! -> Act 1 Part 2 Choice I]]
-[[ It’s tiring and my legs hurt. Maybe a small rest will also shut Wang(temp) up for a while. -> Act 1 Part 2 Choice E]]
+[[ It’s tiring, but you trust $friend2 in his intuition. Usually… You have faith in him and want to persevere! -> Act 1 Part 2 Choice I]]
+[[ It’s tiring and my legs hurt. Maybe a small rest will also shut $friend1 up for a while. -> Act 1 Part 2 Choice E]]
 
 :: Act 1 Part 2 Choice I
 <<set $traitI += 1>>\
-You assure Wang(temp) that you also feel that we are getting close, just a few more steps 
-till we reach the cave! However, that motivational speech only lasted for a few more minutes 
-before giving up and taking a [[long rest on the side of the path. -> Act 1 Part 2 After Choice]]
+You assure $friend1 that you also feel that we are getting close, just a few more steps till we reach the cave! However, that motivational speech only lasted for a few more minutes before giving up and taking a [[long rest on the side of the path. -> Act 1 Part 2 After Choice]]
 
 :: Act 1 Part 2 Choice E
 <<set $traitE += 1>>\
@@ -109,12 +91,12 @@ You suggest that we take a sorely needed break. It didn’t take much convincing
 
 :: Act 1 Part 2 After Choice
 
-Finally after a few more ‘we’re almost reaching!’ speeches, you and your party arrive at a cave opening protruding beneath a hill. 
+Finally after a few more "we’re almost reaching!" speeches, you and your party arrive at a cave opening protruding beneath a hill. 
 Green glowing moss lines the sides as wind unnaturally whistles out of the cave’s mouth.
 
-“Well we are here, not ominous at all nope!”(You)
-“What kind of crazy person buries a holy artifact in a sea of ocean?!”(W)
-“Those kinds of people you are calling crazy get to ascend to the heavens as immortals. We mortals won’t understand their thinking anyway.”(H)
+“Well we are here, not ominous at all nope!” You say.
+“What kind of crazy person buries a holy artifact in a sea of ocean?!” $friend1 complains.
+“Those kinds of people you are calling crazy get to ascend to the heavens as immortals. We mortals won’t understand their thinking anyway.”
 
 With such feelings, you and your friends enter the cave, excited yet nervous for what you could possibly encounter in such a remote location.
 Thanks to years of being untouched by man, the glowing moss has 
@@ -166,32 +148,6 @@ your tank got splashed by a confusion potion trap and starts going crazy
 <</if>>
 
 :: Act 1 End
-
-<<if $traitI > $traitE>> \
-<<if $traitJ > $traitP>> \
-<<set $trueClass to "taoist">> \
-<<set $trueWeapon to "sword">> \
-<<set $wrongClass to "bard">> \
-<<set $wrongWeapon to "flute">> \
-<<else>> \
-<<set $trueClass to "ninja">> \
-<<set $trueWeapon to "kunai">> \
-<<set $wrongClass to "monk">> \
-<<set $wrongWeapon to "scroll">> \
-<</if>> \
-<<else>> \
-<<if $traitJ > $traitP>> \
-<<set $trueClass to "monk">> \
-<<set $trueWeapon to "scroll">> \
-<<set $wrongClass to "ninja">> \
-<<set $wrongWeapon to "kunai">> \
-<<else>> \
-<<set $trueClass to "bard">> \
-<<set $trueWeapon to "flute">> \
-<<set $wrongClass to "taoist">> \
-<<set $wrongWeapon to "sword">> \
-<</if>> \
-<</if>> \
 
 Although the dungeon is challenging, for a seasoned adventurer like you, there were no life threatening events.
 As a $trueClass, you comfortably grip your $trueWeapon, confident that with it by your side, you can even take down an earth dragon.

@@ -49,6 +49,11 @@ Loh Chang Zhen
 <<set $traitJ = 0>>
 <<set $traitP = 0>>
 
+/* temporary friend names
+*/
+<<set $friend1 = "Wang">>
+<<set $friend2 = "Hao">>
+
 /* TBD: StoryInterface to make old passages show up at the back? */
 
 :: PassageHeader
