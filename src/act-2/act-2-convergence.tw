@@ -1,0 +1,9 @@
+:: Act 2 Convergence
+
+Under the guidance of the Master <<= $wrongClass.toUpperFirst()>>, you become somewhat familiar with the holy $wrongWeapon. You're about to have a little celebration with your friends $friend1 and $friend2, but it seems that the demons have the same idea...
+
+!!"LET'S MOOOOOO AND PARTY!"
+
+Accompanied by earthquake-inducing roars and chants of demons, the Demon Lord Niu Mo Wang proclaims his arrival. You and your friends look to the Master <<= $wrongClass.toUpperFirst()>> for help - only to remember that he had left yesterday. Left with no choice, you challenge the demon lord to make him stop.
+
+<<include `"Act 2 " + $wrongClass.toUpperFirst() + " Choices 2"`>>

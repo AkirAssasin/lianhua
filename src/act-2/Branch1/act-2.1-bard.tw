@@ -2,18 +2,19 @@
 
 :: Act 2 Bard Choices 1
 
-Master bard begins his lesson by talking about the free spirit, talking about how his ex girlfriend is actually the demon lord in disguise, and the one before was nice but can’t say no to people. They got together thanks to that but also one of the reasons why they are no longer together, (if you know what I mean).......
-As you sit there bored of his ramblings, you wonder when he will stop talking about his life and begin to teach you in earnest. 
-After another long ramble, he finally asks 
-“Do you have any questions for me?”
+The Master Bard begins his lesson by talking about the free spirit, talking about how his ex girlfriend is actually the demon lord in disguise, and the one before was nice but can’t say no to people. They got together thanks to that, but it's also one of the reasons why they are no longer together, if you know what I mean...
 
-[[... ask the Master for a live demonstration -> Act 2 Bard Good 1]]
-[[... ask the Master for a manual on what tunes to play and when to play which -> Act 2 Bard Bad 1]]
+As you sit there, tired of his ramblings, you wonder when he will stop talking about his life and begin to teach you in earnest.
+
+After his incredibly self-centred monologue, he finally asks if you have any questions for him.
+
+[[Ask the Master for a live demonstration. -> Act 2 Bard Good 1]]
+[[Ask the Master for a manual on what tunes to play and when to play which. -> Act 2 Bard Bad 1]]
 
 :: Act 2 Bard Good 1
 
-As the master bard plays his instrument, you close your eyes and appreciate the entrancing performance. A single tear makes its way down your cheeks. You begin to understand what it means to be a bard. The way of disrupting the enemy’s actions with an [[appropriate tune ->  Act 2 Convertion 1]]
+As the master bard plays his instrument, you close your eyes and appreciate the entrancing performance. A single tear makes its way down your cheeks. You begin to understand what it means to be a bard. The way of disrupting the enemy’s actions with an [[appropriate tune ->  Act 2 Convergence]].
 
 :: Act 2 Bard Bad 1
 
-Disappointed by your question, he chides you “The path to the heart is not something that can be done by following a manual. The one that follows it will never understand what it means to be a Bard” and resumes his lecture of being [[free spirited ->  Act 2 Bard Choices 1]].
+"Tsk, tsk." Disappointed by your request, he wags his finger at you. “The path to the heart is not something that can be done by following a manual. The one that follows it will never understand what it means to be a Bard” and resumes his lecture of being [[free spirited ->  Act 2 Bard Choices 1]].

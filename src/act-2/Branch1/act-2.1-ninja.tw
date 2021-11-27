@@ -2,24 +2,27 @@
 
 :: Act 2 Ninja Choices 1
 
-The Master Ninja appears before you from a pile of smoke. 
-Boasting that he could had killed you on 3 different occasions on your way to meet him. 
-He mentions how many weak spots you are currently displaying just by standing in front of him nonchalantly. 
-You wonder to yourself, how many “missions” did he have to complete to earn him the be titled “Master Ninja”...
+The Master Ninja appears before you from a pile of smoke.
 
-As the Master Ninja describes each visceral detail in his latest mission, you can feel your lunch climbing out of stomach. 
-To divert the topic, you ask him for some more technical advice.
-Soon after, sounds of a battle could be heard nearby.  
-A group of armed farmers fending off attacks from a group of monsters
-What would you do?
+He starts by boasting that he could had killed you on 3 different occasions on your way to meet him. He mentions how many weak spots you are currently displaying just by standing in front of him nonchalantly.
 
-[[... asked which area you should stab for the most damage  -> Act 2 Ninja Good 1]]
-[[... cast a healing spell onto your weapon and throw it  to an area to heal the villager -> Act 2 Ninja Bad 1]]
+As the Master Ninja describes each visceral detail of his last... "mission", you can feel your lunch climbing out of stomach. 
+
+To divert the topic, you ask him for some more technical advice. Soon after, sounds of a battle could be heard nearby. 
+
+Hiding in the bushes, you and the Master Ninja spy a group of farmers fending off attacks from a group of monsters.
+
+"Yes, this will be good training for you. Show me what you've got."
+
+[[Silently finish off the monsters from the shadows. -> Act 2 Ninja Good 1]]
+[[Ask the villagers if they need help with anything. -> Act 2 Ninja Bad 1]]
 
 :: Act 2 Ninja Good 1
 
-the Master Ninja is pleased with your question, and begins to teach you the art of [[the Ninja ->  Act 2 Convertion 1]]
+The farmers have won the battle, thanks to some unseen intervention on your part. The Master Ninja is visibly pleased with your action, but starts to boast about how he could have done that in one-tenth of the time you took. Nevertheless, he diligently trains you in the art of [[the Ninja -> Act 2 Convergence]].
 
 :: Act 2 Ninja Bad 1
 
-Catching your weapon, the Master Ninja chides you in disappointment and mentions that the number one rule is to never throw your weapon away if it is [[not to kill -> Act 2 Ninja Choices 1]]
+You step out of your hiding bush, but the Master Ninja immediately drags you back in.
+
+"What do you think you're doing? A ninja... must be brutal! Stylish! Cool! But most importantly, he must act alone!" The Master Ninja chides you in disappointment. Nevertheless, he gives you a [[second chance -> Act 2 Ninja Choices 1]].

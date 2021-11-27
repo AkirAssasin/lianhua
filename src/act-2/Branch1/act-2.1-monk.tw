@@ -2,26 +2,24 @@
 
 :: Act 2 Monk Choices 1
 
-Master monk begins by talking about a noble secret sect where killing is not the way. 
-The union of the monk sect, 18 Luo Han, powerful warriors who are strong enough to defeat most evildoers. 
-They would have been sent to defeat the demon lord if not for old age *coughs*. In the past the monks were…….
+The Master Monk begins by talking about a noble secret sect where killing is not the way. 
+The Union of the Monk Sect, 18 Luo Han, formed by powerful warriors who empower their fellowship through their unwavering faith. 
+"We would have been sent to pacify the demon lord if not for - //KOFF! KOFF!// - old age... Back in my days..."
 
-As you sit there bored of his ramblings, you wonder when he will stop talking about his life and begin to teach you in earnest.  
-He finally pulls out a tome and starts to instruct you.
-“Read the words and think of the person you wish to empower protection on.”
-Soon after, sounds of a battle could be heard nearby.  A group of armed farmers fending off attacks from a group of monsters.
-What would you do?
+As you sit there, tired of his ramblings, you wonder when he will stop talking about his life and begin to teach you in earnest.
 
-[[... you chant a blessing for the safety of Master Priest and nearby onlookers -> Act 2 Monk Good 1]]
-[[... you offer a silent prayer for the strength to defeat your enemies -> Act 2 Monk Bad 1]]
+He finally pulls out a tome and starts to instruct you. “Read the words and think of the person you wish to empower protection on.”
+
+Soon after, sounds of a battle could be heard nearby.  A group of armed farmers fending off attacks from a group of monsters. What would you do?
+
+[[You chant a blessing for the safety of Master Priest and nearby onlookers. -> Act 2 Monk Good 1]]
+[[You offer a silent prayer for the strength to defeat your enemies. -> Act 2 Monk Bad 1]]
 
 :: Act 2 Monk Good 1
 
-A warm glow energizes the farmers to the point where their muscles swell and burst out of their clothes. 
-They flex confidently in a group muscle man pose. 
-Intimidated by this bizarre sight, the monsters flee quickly. 
-The Master Priest merrily slaps you on the back, 
-happy that you understand the meaning of being a monk and begins teaching you ways to be [[more effective ->  Act 2 Convertion 1]]. 
+A warm glow energizes the farmers to the point where their muscles swell and burst out of their clothes. They flex confidently in ways that would make a bodybuilder shy. Intimidated by this bizarre sight, the monsters flee quickly. 
+
+The Master Priest merrily slaps you on the back, happy that you understand the meaning of being a monk and begins preaching to you the ways to be [[more effective ->  Act 2 Convergence]]. 
 
 :: Act 2 Monk Bad 1
 
