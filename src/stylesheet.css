@@ -50,8 +50,21 @@ body {
 }
 
 /* remove header margin */
-h1 {
+h1, h2 {
 
     /* remove margin */
     margin: 0px 0px;
+}
+
+/* H2 is for demon lord dialogue */
+h2 {
+
+    /* slightly bigger text */
+    font-size: 22px;
+
+    /* italics */
+    font-style: italic;
+
+    /* shouting */
+    text-transform: uppercase;
 }

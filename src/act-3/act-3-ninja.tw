@@ -9,23 +9,29 @@
 
 You tackle the demon lord once again and strike at his neck.
 
-"Your actions are futile! My skin regrows stronger," he proclaims. Sure enough, the holy kunai is already getting forced out as he regenerates the small wound.
+!!"Your actions are futile! My skin regrows stronger,"
+
+He proclaims. Sure enough, the holy kunai is already getting forced out as he regenerates the small wound.
 
 Before that happens, however, $friend2 strikes the kunai like a nail, driving it deeper.
 
-The demon lord is amused by this action. "Is this your final struggle, mortals?"
+The demon lord is amused by this action.
 
-$friend1 strikes the kunai again. The demon lord lets out a bead of sweat. "Wait..."
+!!"Is this your final struggle, mortals?"
+
+$friend1 strikes the kunai again. The demon lord lets out a bead of sweat.
+
+!!"Wait..."
 
 Your entire party strikes the kunai in your hand against the demon lord's skin. The scene is reminiscent of rabbits pounding rice on the moon, and the crowd of demons could only watch in horror.
 
 The kunai begins to wedge deeper and deeper, and the demon lord begins to panic. He struggles, but is unable to escape your grapple.
 
-"Wait. Wait! Let me go!"
+!!"Wait. Wait! Let me go!"
 
 For someone who has never sustained a severe injury, the thought of harm or death must be terrifying indeed.
 
-"Stop! Let me go! I yield, I yield! Stop this madness!"
+!!"Stop! Let me go! I yield, I yield! Stop this madness!"
 
 [[And thus, the demon lord concedes. -> Act 3 Success]]
 
@@ -33,6 +39,6 @@ For someone who has never sustained a severe injury, the thought of harm or deat
 
 You dart around the demon lord, looking for an opening. The demon lord snickers arrogantly as you stab, slice and strike him. You stop for a moment, and his skin-deep wounds have already recovered.
 
-"In the face of my power, your tricks are nothing!"
+!!"In the face of my power, your tricks are nothing!"
 
 <<include [[Act 3 Ninja Choices]]>>
