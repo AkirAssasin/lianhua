@@ -1,19 +1,27 @@
 /* note: this is for the monk, forced to be a Ninja */
 
 :: Act 2 Ninja Choices 2
+You find the demon lord partying in the forest with his goons. It seems they have yet to notice you.
 
 [[... run toward the demon lord to assassinate him -> Act 2 Ninja Good]]
 [[... hide in the shadow and wait for an opportunity -> Act 2 Ninja Bad]]
 
 :: Act 2 Ninja Good
 
-Unholy Regen ability, kunai can't out-damage the heals
+You step out and swiftly cut the demon lord, you cut out a chunk of his flesh, but in an instant, it regenerates at an ungodly speed. 
 
-the demon lord has read the prophecy and sacrificed countless men to become invincible from [[your attacks->Act 3 Intro 1]]!
+“It took the sacrifice of a thousand men, but now I have been blessed with an unholy regeneration speed!”
+
+No matter how many times you cut the demon lord, his body regenerates back without a single scratch. Having read the prophecy, the demon lord sacrificed countless men to become invincible from your attacks!
+
+“HAHAHAHA!  Did you think I, the demon king who has been sealed for thousands of years, not have a countermeasure against you? That was the only thing that kept me sane!! Now that I’m free, NOTHING CAN STOP ME FROM HAVING THE [[ PARTY OF THE ERA->Act 3 Intro 1]]!!!!!!” 
+
 
 :: Act 2 Ninja Bad
 
-the demon lord laughs at your attempt
-to use the [[holy weapon-> Act 3 Intro 1]]
+The demon lord laughs at your attempt
+“Do you really think I wouldn't notice you hiding in the shadows? I saw your presence the moment you entered the forest within my domain expansion.” 
 
-you can't even use it right!
+The demon lord huffs and takes in a huge amount of air, his chest expands like a balloon. A few seconds later he puffs out a massive jet of air to your direction. Blowing you far far away into the air.
+
+“Now that the housefly has flown off. LETTTTS PARTYYYYY!!! [[MOOOOOOO-> Act 3 Intro 1]]!!”
