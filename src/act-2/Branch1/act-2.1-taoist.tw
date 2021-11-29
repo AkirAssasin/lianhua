@@ -9,12 +9,13 @@ As you sit there, listening to the countless examples the Master provides on tal
 "Let me know when you are ready. I will test you on your knowledge of talismans."
 What would you do?
 
+<<set $badOutcome to "Act 2 " + $wrongClass.toUpperFirst() + " Bad 1">>\
 <<include [[Act 2 Taoist Choices 1]]>>
 
 :: Act 2 Taoist Choices 1
 
-[[Try to figure out the underlying patterns to all the talismans. -> Act 2 Taoist Bad 1]]
 [[Just memorize as many pages of the catalogue as possible. -> Act 2 Taoist Good 1]]
+[[Try to figure out the underlying patterns to all the talismans. -> $badOutcome]]
 
 :: Act 2 Taoist Good 1
 
@@ -32,4 +33,11 @@ You're fairly certain that this barrier has some fancy name - you just can't rem
 
 "Are you trying to get yourself killed? This is absolutely different from anything I've seen in the catalogue I've given you!" He scolds. "These incantations are all passed down from the great deities to the first Taoist. You must follow them! Try again!"
 
+<<set $badOutcome to "Act 2 " + $wrongClass.toUpperFirst() + " Over 1">>\
 <<include [[Act 2 Taoist Choices 1]]>>
+
+:: Act 2 Taoist Over 1
+
+“How are you not getting it?? DO NOT CREATE YOUR OWN TALISMANS!!!!” exclaims the Master Taoist.
+
+Slamming a mountain of books in front of you, he asks you to read it all completely, knowing that you will be [[bored to death by this tedious punishment -> Act 2 Convergence]].

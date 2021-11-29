@@ -8,16 +8,17 @@ As you sit there, tired of his ramblings, you wonder when he will stop talking a
 
 After his incredibly self-centred monologue, he finally asks if you have any questions for him.
 
+<<set $badOutcome to "Act 2 " + $wrongClass.toUpperFirst() + " Bad 1">>\
 <<include [[Act 2 Bard Choices 1]]>>
 
 :: Act 2 Bard Choices 1
 
 [[Ask the Master for a live demonstration. -> Act 2 Bard Good 1]]
-[[Ask the Master for a manual on what tunes to play and when to play which. -> Act 2 Bard Bad 1]]
+[[Ask the Master for a manual on what tunes to play and when to play which. -> $badOutcome]]
 
 :: Act 2 Bard Good 1
 
-As the master bard plays his instrument, you close your eyes and appreciate the entrancing performance. A single tear makes its way down your cheeks. You begin to understand what it means to be a bard. The way of disrupting the enemy’s actions with an [[appropriate tune ->  Act 2 Convergence]].
+As the master bard plays his instrument, you close your eyes and appreciate the entrancing performance. A single tear makes its way down your cheeks. You begin to understand what it means to be a bard. The way of disrupting the enemy’s actions with an [[appropriate tune -> Act 2 Convergence]].
 
 :: Act 2 Bard Bad 1
 
@@ -25,4 +26,13 @@ As the master bard plays his instrument, you close your eyes and appreciate the 
 
 Eventually, he ends his ramblings once again and asks you if you have any questions.
 
+<<set $badOutcome to "Act 2 " + $wrongClass.toUpperFirst() + " Over 1">>\
 <<include [[Act 2 Bard Choices 1]]>>
+
+:: Act 2 Bard Over 1
+
+The Master Bard sighs at your adamant request.
+
+“You do not have what it takes to be a good bard, but it can't be helped as the world still requires a hero. As you requested, take this manual that you asked for. Practice it like your life is dependent on it.”
+
+After saying that, [[the Master Bard leaves you -> Act 2 Convergence]].

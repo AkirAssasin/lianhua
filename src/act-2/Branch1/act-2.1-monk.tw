@@ -14,12 +14,13 @@ He finally pulls out a tome and starts to instruct you. “Read the words and th
 
 Soon after, sounds of a battle could be heard nearby. A group of armed farmers fending off attacks from a group of monsters. What would you do?
 
+<<set $badOutcome to "Act 2 " + $wrongClass.toUpperFirst() + " Bad 1">>\
 <<include [[Act 2 Monk Choices 1]]>>
 
 :: Act 2 Monk Choices 1
 
 [[You chant a blessing for the safety of Master Priest and nearby onlookers. -> Act 2 Monk Good 1]]
-[[You offer a silent prayer for the strength to defeat your enemies. -> Act 2 Monk Bad 1]]
+[[You offer a silent prayer for the strength to defeat your enemies. -> $badOutcome]]
 
 :: Act 2 Monk Good 1
 
@@ -31,4 +32,15 @@ The Master Priest merrily slaps you on the back, happy that you understand the m
 
 The Master Monk disappointedly smacks your head and lectures you. “A monk is supposed to enhance his allies, one man cannot do everything himself!”
 
+<<set $badOutcome to "Act 2 " + $wrongClass.toUpperFirst() + " Over 1">>\
 <<include [[Act 2 Monk Choices 1]]>>
+
+:: Act 2 Monk Over 1
+
+//"SMACK!"//
+
+“WHAT ARE YOU DOING???” shouts the Master Monk. “DO YOU STILL DO NOT UNDERSTAND THAT ONE MAN CAN’T DO EVERYTHING!” 
+
+The smack on your head was so loud, the group of monsters noticed your presence and ran off.
+
+“I will beat the teachings into you!” the Master Monk proclaims, and [[you shudder at the thought -> Act 2 Convergence]].
