@@ -18,4 +18,4 @@ Looking blankly at you for a few seconds, they suddenly burst out into laughter.
 
 After exiting the cave, you quickly release messaging pigeons to deliver the message to the empire. “We have found the holy weapon, but it is a weapon that I am a amatuer in. Please send someone who is skilled in the area of <<= $wrongClass.toUpperFirst()>> and <<= $wrongWeapon.toUpperFirst()>> to train me”
 
-Surprisingly, <<link "a trainer arrives" `"Act 2 " + $wrongClass.toUpperFirst() + " Choices 1"`>><</link>> very quickly within the week.
+Surprisingly, <<link "a trainer arrives" `"Act 2 " + $wrongClass.toUpperFirst() + " Intro"`>><</link>> very quickly within the week.

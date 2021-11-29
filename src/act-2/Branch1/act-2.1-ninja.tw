@@ -1,6 +1,6 @@
 /* note: this is for the monk, forced to be a Ninja */
 
-:: Act 2 Ninja Choices 1
+:: Act 2 Ninja Intro
 
 The Master Ninja appears before you from a pile of smoke.
 
@@ -14,6 +14,10 @@ Hiding in the bushes, you and the Master Ninja spy a group of farmers fending of
 
 "Yes, this will be good training for you. Show me what you've got."
 
+<<include [[Act 2 Ninja Choices 1]]>>
+
+:: Act 2 Ninja Choices 1
+
 [[Silently finish off the monsters from the shadows. -> Act 2 Ninja Good 1]]
 [[Ask the villagers if they need help with anything. -> Act 2 Ninja Bad 1]]
 
@@ -25,4 +29,6 @@ The farmers have won the battle, thanks to some unseen intervention on your part
 
 You step out of your hiding bush, but the Master Ninja immediately drags you back in.
 
-"What do you think you're doing? A ninja... must be brutal! Stylish! Cool! But most importantly, he must act alone!" The Master Ninja chides you in disappointment. Nevertheless, he gives you a [[second chance -> Act 2 Ninja Choices 1]].
+"What do you think you're doing? A ninja... must be brutal! Stylish! Cool! But most importantly, he must act alone!" The Master Ninja chides you in disappointment. Nevertheless, he gives you a second chance.
+
+<<include [[Act 2 Ninja Choices 1]]>>

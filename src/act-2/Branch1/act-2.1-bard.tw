@@ -1,12 +1,16 @@
 /* note: this is for the taoist, forced to be a Bard */
 
-:: Act 2 Bard Choices 1
+:: Act 2 Bard Intro
 
 The Master Bard begins his lesson by talking about the free spirit, talking about how his ex girlfriend is actually the demon lord in disguise, and the one before was nice but can’t say no to people. They got together thanks to that, but it's also one of the reasons why they are no longer together, if you know what I mean...
 
 As you sit there, tired of his ramblings, you wonder when he will stop talking about his life and begin to teach you in earnest.
 
 After his incredibly self-centred monologue, he finally asks if you have any questions for him.
+
+<<include [[Act 2 Bard Choices 1]]>>
+
+:: Act 2 Bard Choices 1
 
 [[Ask the Master for a live demonstration. -> Act 2 Bard Good 1]]
 [[Ask the Master for a manual on what tunes to play and when to play which. -> Act 2 Bard Bad 1]]
@@ -17,4 +21,8 @@ As the master bard plays his instrument, you close your eyes and appreciate the 
 
 :: Act 2 Bard Bad 1
 
-"Tsk, tsk." Disappointed by your request, he wags his finger at you. “The path to the heart is not something that can be done by following a manual. The one that follows it will never understand what it means to be a Bard” and resumes his lecture of being [[free spirited ->  Act 2 Bard Choices 1]].
+"Tsk, tsk." Disappointed by your request, he wags his finger at you. “The path to the heart is not something that can be done by following a manual. The one that follows it will never understand what it means to be a Bard!” He then resumes his lecture of being free spirited.
+
+Eventually, he ends his ramblings once again and asks you if you have any questions.
+
+<<include [[Act 2 Bard Choices 1]]>>
