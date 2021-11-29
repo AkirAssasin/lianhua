@@ -1,21 +1,26 @@
 :: Act 2 Intro 1
 
-“What!!! All this effort for this? And it’s not even a weapon I’m comfortable with...  What am I going to do now?
-Is there no other choice but to use this weapon?” 
+“What!!! All this effort for this? And it’s not even a weapon I’m comfortable with... What am I going to do now? Is there no other choice but to use this weapon?”
+
 Looking towards the ceiling of the cave, you hope that the Great Deity would appear before you and give you an answer.
-After staring at the ceiling for a few minutes with no response, you understand that there is no other way but to accept reality. Soon after, your party members enter the room asking what happened, confused about your  [[expression darken -> Act 2 Intro 2]] while recognising what is in your hands.
+
+After staring at the ceiling for a few minutes with no response, you understand that there is no other way but to accept reality. Soon after, your friends enter the room, confused about your dark expression before recognising [[what is in your hands -> Act 2 Intro 2]].
 
 :: Act 2 Intro 2
 
-You replied, “Here it is, THE HOLY WEAPON” while holding it out to show them.
-Looking blankly at you for a few seconds, they suddenly burst out into laughter. Some even start to roll on the floor. After a few minutes, they calm down and ask where the real holy weapon is. You reply by raising your eyebrows, insisting that what you are holding is the holy weapon. 
+“Here it is, the holy $wrongWeapon!” You say, while holding it out to them.
+
+$friend1 and $friend2 both look blankly at you for a few seconds before bursting into laughter. After a few minutes, they calm down and ask where the real holy weapon is. You reply by raising your eyebrows, insisting that what you are holding is the holy weapon.
+
 “SERIOUSLY!?!” they clamour in unison. 
-“Well we are going to fail” said one of them
-“Not if we start training now. Maybe the Deity knew this is where my true potential is.” trying to bring up the morale while knowing that cannot be true.
-“Come on, let's exit this place, and find me a trainer” [[you continue -> Act 2 Intro 3]].
+
+“Well, we are going to fail.” said $friend1.
+
+“Not if we start training now. Maybe the Deity knew this is where my true potential is.” Trying to bring up the morale while knowing that cannot be true.
+“Come on, let's exit this place, and [[find me a trainer... -> Act 2 Intro 3]]"
 
 :: Act 2 Intro 3
 
-After exiting the cave, you quickly release messaging pigeons to deliver the message to the empire. “We have found the holy weapon, but it is a weapon that I am a amatuer in. Please send someone who is skilled in the area of <<= $wrongClass.toUpperFirst()>> and <<= $wrongWeapon.toUpperFirst()>> to train me”
+After exiting the cave, you quickly release messaging pigeons to deliver the message to the empire. “We have found the holy $wrongWeapon, but I am not proficient in it. Please send a skilled <<= $wrongClass.toUpperFirst()>> to train me, and quick!”
 
-Surprisingly, <<link "a trainer arrives" `"Act 2 " + $wrongClass.toUpperFirst() + " Intro"`>><</link>> very quickly within the week.
+A week later, a Master <<link "descends upon your camp." `"Act 2 " + $wrongClass.toUpperFirst() + " Intro"`>><</link>>
