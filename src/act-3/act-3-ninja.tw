@@ -3,7 +3,7 @@
 :: Act 3 Ninja Choices
 
 [[... request the strength of your party to target a vital point. -> Act 3 Ninja Good]]
-[[... attack the demon lord from every angle possible. -> Act 3 Ninja Bad]]
+[[... attack the demon lord from every angle possible. -> $badOutcome]]
 
 :: Act 3 Ninja Good
 
@@ -41,4 +41,5 @@ You dart around the demon lord, looking for an opening. The demon lord snickers 
 
 !!"In the face of my power, your tricks are nothing!"
 
+<<set $badOutcome to "Act 3 Failure">>\
 <<include [[Act 3 Ninja Choices]]>>

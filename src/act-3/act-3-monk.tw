@@ -3,7 +3,7 @@
 :: Act 3 Monk Choices
 
 [[... offer a silent prayer for the strength to defeat the demon lord. -> Act 3 Monk Good]]
-[[... chant a blessing for your party members, who are separated from you. -> Act 3 Monk Bad]]
+[[... chant a blessing for your party members, who are separated from you. -> $badOutcome]]
 
 :: Act 3 Monk Good
 
@@ -23,4 +23,5 @@ You feel like you can take on every demon around you at once. The demon lord tri
 
 You chant a blessing for your party members, who are trapped and separated from you. But can they really get out in time, before the demon lord takes your holy $wrongWeapon away?
 
+<<set $badOutcome to "Act 3 Failure">>\
 <<include [[Act 3 Monk Choices]]>>

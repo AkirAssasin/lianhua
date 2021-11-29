@@ -3,7 +3,7 @@
 :: Act 3 Bard Choices
 
 [[... start playing every song that you can recall. -> Act 3 Bard Good]]
-[[... try to see into the demon lord's heart. -> Act 3 Bard Bad]]
+[[... try to see into the demon lord's heart. -> $badOutcome]]
 
 :: Act 3 Bard Good
 
@@ -29,4 +29,5 @@ You try your hardest to see into the demon lord's heart. No matter where you obs
 
 He really seems to have perfected his poker face.
 
+<<set $badOutcome to "Act 3 Failure">>\
 <<include [[Act 3 Bard Choices]]>>

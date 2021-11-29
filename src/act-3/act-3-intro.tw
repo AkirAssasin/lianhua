@@ -50,4 +50,5 @@ The demon lord bellows, and begins walking towards you. The situation is as dire
 
 You lift yourself up the ground and...
 
+<<set $badOutcome to "Act 3 " + $wrongClass.toUpperFirst() + " Bad">>\
 <<include `"Act 3 " + $wrongClass.toUpperFirst() + " Choices"`>>

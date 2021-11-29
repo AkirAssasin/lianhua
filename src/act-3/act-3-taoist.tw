@@ -3,7 +3,7 @@
 :: Act 3 Taoist Choices
 
 [[... chain together a haphazard incantation. -> Act 3 Taoist Good]]
-[[... unleash every spell you've ever studied on the demon lord. -> Act 3 Taoist Bad]]
+[[... unleash every spell you've ever studied on the demon lord. -> $badOutcome]]
 
 :: Act 3 Taoist Good
 
@@ -29,4 +29,5 @@ You grab whatever talismans you have prepared and cast them at the demon lord. H
 
 He boasts, convinced that nothing could ever touch him.
 
+<<set $badOutcome to "Act 3 Failure">>\
 <<include [[Act 3 Taoist Choices]]>>
