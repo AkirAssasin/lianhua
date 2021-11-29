@@ -2,7 +2,7 @@
 
 An ancient prophecy told from fathers to sons, of when one day the demon lord will reappear again and wreak havoc on these lands. 
 But there is always balance in the universe, a hero bearing a lotus birth mark will be born. 
-With great courage and his holy weapon, he will defeat the demon lord and [[ bring back peace to the lands. -> Act 1 Intro 2 ]]
+With great courage and his holy weapon, he will defeat the demon lord and [[bring back peace to the lands. -> Act 1 Intro 2]]
 
 :: Act 1 Intro 2
 
@@ -52,8 +52,8 @@ You focus on your surroundings and see your friends tense up as your party creep
 “They don’t look fully grown yet, each of us can solo one!” $friend2 grins excitedly.
 They both look at you and wait for your response.
 
-[[ We can’t let our guard down, let’s quickly take them down while being cautious of our surroundings just in case. -> Act 1 Part 1 Choice I]]
-[[ Yo it’s just 3 bears, let’s take them down quickly and then break for lunch. I call dibs on the left. -> Act 1 Part 1 Choice E]]
+[[We can’t let our guard down, let’s quickly take them down while being cautious of our surroundings just in case. -> Act 1 Part 1 Choice I]]
+[[Yo it’s just 3 bears, let’s take them down quickly and then break for lunch. I call dibs on the left. -> Act 1 Part 1 Choice E]]
 
 :: Act 1 Part 1 Choice I
 <<set $traitI += 1>>\
@@ -87,10 +87,13 @@ Being the 19th time you are hearing this conversation, you start to feel a need 
 You assure $friend1 that you also feel that we are getting close, just a few more steps till we reach the cave! 
 However, that motivational speech only lasted for a few more minutes 
 before giving up and taking a long rest on the side of the path.
+
 <<include `"Act 1 Part 2 After Choice"`>>
+
 :: Act 1 Part 2 Choice E
 <<set $traitE += 1>>\
 You suggest that we take a sorely needed break. It didn’t take much convincing to get the whole party to take a quick pit stop.
+
 <<include `"Act 1 Part 2 After Choice"`>>
 
 :: Act 1 Part 2 After Choice
@@ -102,7 +105,7 @@ Green glowing moss lines the sides as wind unnaturally whistles out of the cave�
 “What kind of crazy person buries a holy artifact in a sea of ocean?!” $friend1 complains.
 “Those kinds of people you are calling crazy get to ascend to the heavens as immortals. We mortals won’t understand their thinking anyway.”
 
-With such feelings, you and your friends enter the cave, excited yet nervous for what you could [[possibly encounter in such a remote location. -> Act 1 Part 3 ]]
+With such feelings, you and your friends enter the cave, excited yet nervous for what you could [[possibly encounter in such a remote location. -> Act 1 Part 3]]
 
 :: Act 1 Part 3
 
@@ -110,18 +113,20 @@ Your party stumbles upon a fork in the passageway. Two ways to go, left and righ
 With the party unsure which way to go, you chime in
 
 
-[[ “How about we take a vote to decide which route to take?” -> Act 1 Part 3 Choice I ]]
-[[ “Guys, I trust my instinct! It’s definitely this one, follow me!” -> Act 1 Part 3 Choice E]]
+[[“How about we take a vote to decide which route to take?” -> Act 1 Part 3 Choice I]]
+[[“Guys, I trust my instinct! It’s definitely this one, follow me!” -> Act 1 Part 3 Choice E]]
 
 :: Act 1 Part 3 Choice I
 <<set $traitI += 1>>\
 $friend1 and $friend2 both agree to this. After a vote, the party decides to take the left tunnel.
+
 <<include `"Act 1 Part 3 After Choice"`>>
 
 :: Act 1 Part 3 Choice E
 <<set $traitE += 1>>\
 Feeling confident, you persuade the group to follow you into the left tunnel. 
 Your outburst had little resistance as the rest of the party were unsure about how to proceed in the first place.
+
 <<include `"Act 1 Part 3 After Choice"`>>
 
 :: Act 1 Part 3 After Choice
@@ -129,7 +134,6 @@ The path continues to snake left and right.
 With each uncertain step you take, you assure yourself,
 "At least it's not a dead end!"
 You feel that you had made the [[right decision. -> Act 1 Part 4]]
-
 
 :: Act 1 Part 4
 
@@ -143,51 +147,54 @@ The wall behind him gives way to the unexpected pressure and swings open like a 
 "Yeah right. Enough nonsense, step aside and let me check for traps."
 "No need no need. Whoever put it here confirm never expect it to be found! It's so well hidden, I doubt there's any traps in the first place!"
 
-<<if $traitI > $traitE>> \
+<<if $traitI > $traitE>>\
 <<link `"Stop playing around " + $friend1 + " and check seriously. Make sure you confirm plus chop it's safe first!"` "Act 1 Part 4 Choice IJ">><</link>>
-[[ "Wait let me try and check first!" -> Act 1 Part 4 Choice IP]]
-<<else>> \
+[["Wait let me try and check first!" -> Act 1 Part 4 Choice IP]]
+<<else>>\
 <<link `"No wait it's still sus, let " + $friend2 + " check first."` "Act 1 Part 4 Choice EJ">><</link>>
 <<link `"Yo I trust " + $friend1 + ", he's well versed with traps and 90% chance of success!"` "Act 1 Part 4 Choice EP">><</link>>
 <</if>>
 
-::Act 1 Part 4 Choice IJ
+:: Act 1 Part 4 Choice IJ
 <<set $traitJ += 1>>\
 "Okay! Okay! Such a worry wart!"
 $friend1 proceeds to give the chest a scrutinising check.
 After his inspection, he gives you a thumbs up.
+
 <<include `"Act 1 Part 4 After Choice"`>>
 
-::Act 1 Part 4 Choice IP
+:: Act 1 Part 4 Choice IP
 <<set $traitP += 1>>\
 You step forward and approach the chest.
 You give the chest a scrutinising check and a few good pokes just to be sure.
 After your inspection, you signal a thumbs up.
+
 <<include `"Act 1 Part 4 After Choice"`>>
 
-::Act 1 Part 4 Choice EJ
+:: Act 1 Part 4 Choice EJ
 <<set $traitJ += 1>>\
 "Okay! Okay! Such a worry wart!"
 $friend2 proceeds to give the chest a scrutinising check.
 After his inspection, he gives you a thumbs up.
+
 <<include `"Act 1 Part 4 After Choice"`>>
 
-::Act 1 Part 4 Choice EP
+:: Act 1 Part 4 Choice EP
 <<set $traitP += 1>>\
 $friend2 sighs at this recklessness while $friend1 excitedly rubs his palms together.
+ 
 <<include `"Act 1 Part 4 After Choice"`>>
 
-::Act 1 Part 4 After Choice
-Feeling confident, $friend1 proceeds to open the chest. Disappointingly, whoever hid 
-the chest thought it was a good idea to store his cherished snacks in here and promptly forgot about it.
+:: Act 1 Part 4 After Choice
+
+Feeling confident, $friend1 proceeds to open the chest. Disappointingly, whoever hid the chest thought it was a good idea to store his cherished snacks in here and promptly forgot about it.
 
 "WAAH! IT STINKS!!"
 "Pffft, just what I expected of someone with your kind of luck."
 
 Feeling embarressed, $friend1 shuts the lid and demands that we forget about the whole incident.
 You spend the rest of your time laughing with $friend2 and teasing $friend1.
-After your break, your party [[resumes exploring the dungeon. -> Act 1 Part 5 ]]
-
+After your break, your party [[resumes exploring the dungeon. -> Act 1 Part 5]]
 
 :: Act 1 Part 5
 
@@ -198,45 +205,46 @@ When you reach the middle of the room, growls echo off the walls around you as a
 They surround your party, seemingly expecting you.
 $friend1 and $friend2 ready themselves for battle, you guys have survived worse battles than this.
 
-<<if $traitI > $traitE>> \
-[[ Calm yourself and get into your stance -> Act 1 Part 5 Choice IJ ]]
-[[ Look around the room for any potential exits or things you can use if things get too dicey -> Act 1 Part 5 Choice IP ]]
-<<else>> \
-[[ "Don't panic guys, the monsters aren't strong individually, follow my lead and take them out one by one" -> Act 1 Part 5 Choice EJ ]]
-[[ "Don't panic guys, let's cover each other like usual and follow my lead, we can get a better advantage fighting them over there." -> Act 1 Part 5 Choice EP ]]
+<<if $traitI > $traitE>>\
+[[Calm yourself and get into your stance -> Act 1 Part 5 Choice IJ]]
+[[Look around the room for any potential exits or things you can use if things get too dicey -> Act 1 Part 5 Choice IP]]
+<<else>>\
+[["Don't panic guys, the monsters aren't strong individually, follow my lead and take them out one by one" -> Act 1 Part 5 Choice EJ]]
+[["Don't panic guys, let's cover each other like usual and follow my lead, we can get a better advantage fighting them over there." -> Act 1 Part 5 Choice EP]]
 <</if>>
 
-::Act 1 Part 5 Choice IJ
+:: Act 1 Part 5 Choice IJ
 <<set $traitJ += 1>>\
 You ready your weapon as the monsters charge in.
 $friend1 and $friend2 hold their ground and distract the enemy as you cover thier backs and swiftly strike the monster's openings.
+
 <<include `"Act 1 Part 5 After Choice"`>>
 
-
-::Act 1 Part 5 Choice IP
+:: Act 1 Part 5 Choice IP
 <<set $traitP += 1>>\
 You notice some cracks in the ceiling right above a majority of the monsters. 
 You send an explosive strike at the crack.
 Rocks fall and crush a large part of the monsters and the survivors were barely alive and easy to pick off.
+
 <<include `"Act 1 Part 5 After Choice"`>>
 
-::Act 1 Part 5 Choice EJ
+:: Act 1 Part 5 Choice EJ
 <<set $traitJ += 1>>\
 You bravely charge into the side of the blockade while your party sticks closely and covers your back.
 Your sudden charge into their flanks left the enemy in disarray as they clumsily surround you in a disorderly manner.
+
 <<include `"Act 1 Part 5 After Choice"`>>
 
-::Act 1 Part 5 Choice EP
+:: Act 1 Part 5 Choice EP
 <<set $traitP += 1>>\
 Running back to the narrow entrance, you rotate with your party to defend against the enemies assualt.
 You forced the enemies to fight you in a choke point, rendering thier large numbers useless against your party's solid defence.
+
 <<include `"Act 1 Part 5 After Choice"`>>
 
-
-::Act 1 Part 5 After Choice
+:: Act 1 Part 5 After Choice
 With a heavy strike, the last monster slumps onto the ground in front of you.
-After confirming that no one has any serious injuries, your party decides to 
-[[leave the room quickly in case more monsters flood in. -> Act 1 Part 6 ]]
+After confirming that no one has any serious injuries, your party decides to [[leave the room quickly in case more monsters flood in. -> Act 1 Part 6]]
 
 :: Act 1 Part 6
 
@@ -244,49 +252,51 @@ As your party continues down the dim tunnel, you trip on a thin wire.
 A glass vial carrying purple liquid flies over you head and shatters on $friend2, covering his face with the suspicious liquid.
 Foam starts to spill out of $friend2's mouth as he starts lashing out wildly.
 
-<<if $traitI > $traitE>> \
-[[ Restrain him with a rope and knock him unconscious so that he doesn't hurt himself -> Act 1 Part 6 Choice IJ ]]
-[[ Restrain him with rope and wait till the effect wears off, maybe have a small break? -> Act 1 Part 6 Choice IP ]]
-<<else>> \
-[[ Restrain him with a rope, but calm him down with some tea and snacks -> Act 1 Part 6 Choice EJ ]]
-[[ Restrain him with a rope, but talk and calm him down till the effect wears off -> Act 1 Part 6 Choice EP ]]
+<<if $traitI > $traitE>>\
+[[Restrain him with a rope and knock him unconscious so that he doesn't hurt himself -> Act 1 Part 6 Choice IJ]]
+[[Restrain him with rope and wait till the effect wears off, maybe have a small break? -> Act 1 Part 6 Choice IP]]
+<<else>>\
+[[Restrain him with a rope, but calm him down with some tea and snacks -> Act 1 Part 6 Choice EJ]]
+[[Restrain him with a rope, but talk and calm him down till the effect wears off -> Act 1 Part 6 Choice EP]]
 <</if>>
 
-::Act 1 Part 6 Choice IJ
+:: Act 1 Part 6 Choice IJ
 <<set $traitJ += 1>>\
 You quickly tie him with a rope as $friend1 holds him down.
 As $friend2 starts to violently struggle against his bindings and screaming, you deliver a karate chop to his nape for both his sake and your peace of mind.
+
 <<include `"Act 1 Part 6 After Choice"`>>
 
-::Act 1 Part 6 Choice IP
+:: Act 1 Part 6 Choice IP
 <<set $traitP += 1>>\
 You quickly tie him with a rope as $friend1 holds him down.
 Other than the foaming of the mouth, $friend2 layed in a docile and silent state.
 Seeing as there was no other option but to wait it out, you and $friend1 decide to have a small break. 
 You whip out a sweet snack that you have been saving as a treat until now.
+
 <<include `"Act 1 Part 6 After Choice"`>>
 
-
-::Act 1 Part 6 Choice EJ
+:: Act 1 Part 6 Choice EJ
 <<set $traitJ += 1>>\
 You quickly tie him with a rope as $friend1 holds him down.
 As $friend2 starts to violently struggle against his bindings, you tend to him and soothe him with some snacks.
 The floral tea and sweet snacks seem to draw his attention as he progressively became more docile and quiet.
+
 <<include `"Act 1 Part 6 After Choice"`>>
 
-::Act 1 Part 6 Choice EP
+:: Act 1 Part 6 Choice EP
 <<set $traitP += 1>>\
 You quickly tie him with a rope as $friend1 holds him down.
 As $friend2 starts to violently struggle against his bindings, you tend to him and soothe him with some persuasion.
 In your attempt, you shake him.
 "$friend2! It's me! Do you recognise me! Are you there!"
 Surprisingly, although he is unable to reply you coherently, he progessively became more docile and quiet as you shook him more.
+
 <<include `"Act 1 Part 6 After Choice"`>>
 
-::Act 1 Part 6 After Choice
+:: Act 1 Part 6 After Choice
 After a while, the effects of the strange liquid faded and you release $friend2 out of his bindings.
-Feeling groggy as possible side effects, your party decides to rest some more till $friend2 felt better before [[continuing your exploration. -> Act 1 End ]]
-
+Feeling groggy as possible side effects, your party decides to rest some more till $friend2 felt better before [[continuing your exploration. -> Act 1 End]]
 
 :: Act 1 End
 
