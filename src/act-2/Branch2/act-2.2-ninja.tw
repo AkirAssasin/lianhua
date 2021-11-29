@@ -1,27 +1,32 @@
-/* note: this is for the monk, forced to be a Ninja */
+/* note: this is for the Monk, forced to be a Ninja */
 
 :: Act 2 Ninja Choices 2
+
 You find the demon lord partying in the forest with his goons. It seems they have yet to notice you.
 
-[[... run toward the demon lord to assassinate him -> Act 2 Ninja Good]]
-[[... hide in the shadow and wait for an opportunity -> Act 2 Ninja Bad]]
+[[Sneak in the shadows and assassinate him without anyone noticing. -> Act 2 Ninja Good 2]]
+[[Rush in with your friends in battle formation. -> Act 2 Ninja Bad 2]]
 
-:: Act 2 Ninja Good
+:: Act 2 Ninja Good 2
 
-You step out and swiftly cut the demon lord, you cut out a chunk of his flesh, but in an instant, it regenerates at an ungodly speed. 
+You step out and swiftly cut the demon lord. The holy $kunai cuts through the skin, but before it can go any deeper, the skin heals and stops your blade.
 
-“It took the sacrifice of a thousand men, but now I have been blessed with an unholy regeneration speed!”
+!!“It took the sacrifice of a thousand men, but now I have been blessed with an unholy regeneration speed!”
 
 No matter how many times you cut the demon lord, his body regenerates back without a single scratch. Having read the prophecy, the demon lord sacrificed countless men to become invincible from your attacks!
 
-“HAHAHAHA!  Did you think I, the demon king who has been sealed for thousands of years, not have a countermeasure against you? That was the only thing that kept me sane!! Now that I’m free, NOTHING CAN STOP ME FROM HAVING THE [[ PARTY OF THE ERA->Act 3 Intro 1]]!!!!!!” 
+!!“HAHAHAHA! Did you think I, the demon lord who has been sealed for thousands of years, would not have a countermeasure against you? That was the only thing that kept me sane! Now that I’m free, NOTHING CAN STOP ME FROM HAVING THE PARTY OF THE ERA!!!!!!”
 
+With a powerful blow, the demon lord [[knocks the wind out of you -> Act 3 Intro 1]]!
 
-:: Act 2 Ninja Bad
+:: Act 2 Ninja Bad 2
 
-The demon lord laughs at your attempt
-“Do you really think I wouldn't notice you hiding in the shadows? I saw your presence the moment you entered the forest within my domain expansion.” 
+You and your friends leap out to tackle the demon lord, but the demon lord pushes all of you back with a mighty swing, leaving no openings.
 
-The demon lord huffs and takes in a huge amount of air, his chest expands like a balloon. A few seconds later he puffs out a massive jet of air to your direction. Blowing you far far away into the air.
+!!“I thought the hero is supposed to be a Ninja, so I prepared a little surprise and pretended I didn't notice you all miles away... but I guess the hero is stupid enough to take me head on!” 
 
-“Now that the housefly has flown off. LETTTTS PARTYYYYY!!! [[MOOOOOOO-> Act 3 Intro 1]]!!”
+The demon lord huffs and takes in a huge amount of air, his chest expands like a balloon. A few seconds later he puffs out a powerful jet of air in your direction, knocking you and your friends far far away into the air.
+
+!!“Now that the housefly has flown off. LETTTT'S PARTYYYYY!!! MOOOOOOO!!!”
+
+Gravity pulls you back down, and the impact with the ground [[leaves you breathless -> Act 3 Intro 1]]!

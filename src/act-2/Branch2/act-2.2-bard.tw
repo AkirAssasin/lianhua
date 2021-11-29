@@ -1,22 +1,22 @@
 /* note: this is for the Taoist, forced to be a Bard */
 
 :: Act 2 Bard Choices 2
-The demon lord raises a barrier and beckons to you arrogantly. He is letting you make the first move.
 
+The demon lord rushes towards you and your friends, leaving tremors in his wake.
 
-[[... you tap into the demon lord's history and played a soulful tune to make them wave -> Act 2 Bard Good 2]]
-[[... you play the same chilling tune that the Master Bard played -> Act 2 Bard Bad 2]]
+[[You recall that in legends, Niu Mo Wang has a beautiful wife, and sing an ode in praise of her to calm the demon lord down. -> Act 2 Bard Good 2]]
+[[You play the same chilling tune that the Master Bard played to slow the demon lord down. -> Act 2 Bard Bad 2]]
 
 :: Act 2 Bard Good 2
 
-the demon lord has read the prophecy beforehand and sealed away it’s memories - any tune you play has no effect whatsoever on them
+Your tune painted a beautiful image of Niu Mo Wang's wife. It got some of the nearby demons and even $friend2 blushing - but the demon lord shows no sign of stopping his stampede towards you! You look closer and realize that the demon lord has enter some sort of battle trance!
 
-“HAHAHAHA!  Did you think I, the demon king who has been sealed for thousands of years, not have a countermeasure against you? That was the only thing that kept me sane!! Now that I’m free, NOTHING CAN STOP ME FROM HAVING [[THE PARTY OF THE ERA->Act 3 Intro 1]]!!!!!!”
+!!“HAHAHAHA! Did you think I, the demon lord who has been sealed for thousands of years, would not have a countermeasure against you? When I am in this berserker state, nothing you say can stop or influence me! Now that I’m free, NOTHING CAN STOP ME FROM HAVING THE PARTY OF THE ERA!!!!!!”
+
+With a powerful blow, the demon lord [[knocks the wind out of you -> Act 3 Intro 1]]!
 
 :: Act 2 Bard Bad 2
 
-the chilling tune does nothing... Perhaps a tune crafted based on the current situation and target would be more effective...
-“What’s that? Did you even do something?”
+Although you played the chilling tune, it appears that the only person feeling cold is... you. You realize too late that the Master Bard's tune was specifically crafted to his target. For a demon lord that isn't threatened by the thought of winter cold, it has no effect!
 
-the demon lord scoffs at you and continues his devastation without giving you any attention. As if to make you suffer from knowing you are not worthy of the title Lotus Hero as you witness the people [[suffering->Act 3 Intro 1]].
-
+Your friends push you aside and try to block the demon lord's berserk rush with their weapons, but the demon lord overpowers them and [[knocks all three of you down -> Act 3 Intro 1]].

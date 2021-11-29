@@ -7,7 +7,7 @@
 
 :: Act 3 Monk Good
 
-Holy scroll in hand, you offer a silent prayer for the strength to defeat the demon lord.
+Holy $wrongWeapon in hand, you offer a silent prayer for the strength to defeat the demon lord.
 
 A surge of power bursts forth from the scroll, into every corner of your body! The brilliant aura stops the demon lord in his tracks.
 
@@ -21,6 +21,6 @@ You feel like you can take on every demon around you at once. The demon lord tri
 
 :: Act 3 Monk Bad
 
-You chant a blessing for your party members, who are separated from you. But can they really get back here in time, before the demon lord takes your holy scroll away?
+You chant a blessing for your party members, who are trapped and separated from you. But can they really get out in time, before the demon lord takes your holy $wrongWeapon away?
 
 <<include [[Act 3 Monk Choices]]>>

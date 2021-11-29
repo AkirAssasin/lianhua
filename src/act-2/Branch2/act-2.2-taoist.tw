@@ -1,20 +1,24 @@
-/* note: this is for the bard, forced to be a Taoist */
+/* note: this is for the Bard, forced to be a Taoist */
 
 :: Act 2 Taoist Choices 2
 
 The demon lord raises a barrier and beckons to you arrogantly. He is letting you make the first move.
 
-[[... just follow the pattern and make your own solution -> Act 2 Taoist Good 2]]
-[[... recall the correct talisman from memory -> Act 2 Taoist Bad 2]]
+[[Try to see the pattern of the barrier and make your own counter talisman. -> Act 2 Taoist Good 2]]
+[[Try to recall the correct talisman from memory. -> Act 2 Taoist Bad 2]]
 
 :: Act 2 Taoist Good 2
 
 You think you've got it. You invoke the talisman's power with the holy sword, but the holy sword begins to hum dangerously. You cancel the invocation in a panic, and the demon lord sees this as a sign of weakness.
 
-"Are you really the hero? You can't even invoke a simple talisman!" Before you could react, he begins swinging his massive axe at you. The demon lord, an unstoppable force, lays waste to [[your party->Act 3 Intro 1]].
+!!"Are you really the hero? You can't even invoke a simple talisman!"
+
+Before you could react, he begins swinging his massive axe at you. The demon lord, an unstoppable force, lays waste to [[your party->Act 3 Intro 1]].
 
 :: Act 2 Taoist Bad 2
 
 You try to recall everything you've read in the catalogue, and draw up the correct talisman to break the demon lord's barrier. To your surprise, your spell bounces off his barrier. This can't be - you can't be wrong...
 
-"HAHAHAHA! You thought you can break this simple barrier? You thought wrong! My magic shield makes me immune to every spell known to mortals! Now, bow down before me!" Before you could react, he begins swinging his massive axe at you. The demon lord, an unstoppable force, lays waste to [[your party->Act 3 Intro 1]].
+!!“HAHAHAHA! Did you think I, the demon lord who has been sealed for thousands of years, would not have a countermeasure against you? My magic shield makes me immune to every spell known to mortals! Now that I’m free, NOTHING CAN STOP ME FROM HAVING THE PARTY OF THE ERA!!!!!!”
+
+Before you could react, he begins swinging his massive axe at you. The demon lord, an unstoppable force, lays waste to [[your party->Act 3 Intro 1]].

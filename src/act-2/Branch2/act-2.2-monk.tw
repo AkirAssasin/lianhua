@@ -1,25 +1,28 @@
 /* note: this is for the Ninja, forced to be a Monk */
 
 :: Act 2 Monk Choices 2
+
 The demon lord gathers his minions and surrounds your party. Waving at you, taunting you to make the first move.
 
-[[... you chant a blessing to empower your teammates   -> Act 2 Monk Good]]
-[[... try to use the tome to blind the enemy with a dazzling light spell. -> Act 2 Monk Bad]]
+[[You chant a blessing to empower your teammates. -> Act 2 Monk Good 2]]
+[[Try to use the tome to blind the enemy with a dazzling light spell. -> Act 2 Monk Bad 2]]
 
-:: Act 2 Monk Good
+:: Act 2 Monk Good 2
 
 While you prepare to chant your blessings, the demon lord snaps his finger. A transparent film engulfs only you and the demon lord in a huge dome around you. The dome isolates you and the demon lord to a separate space!
-Your teammates disappear from your sights and now you are stuck in a 1 on 1 with the demon lord.
-The demon lord has read the prophecy and prepared an ultimate ability to isolate you and make you useless!
 
-“HAHAHAHA!  Did you think I, the demon king who has been sealed for thousands of years, not have a countermeasure against you? That was the only thing that kept me sane!! Now that I’m free, NOTHING CAN STOP ME FROM HAVING [[THE PARTY OF THE ERA ->Act 3 Intro 1]]!!!!!!” 
+Your teammates disappear from your sights and now you are stuck in a 1-on-1 with the demon lord. The demon lord has read the prophecy and prepared an ultimate ability to isolate you and make you useless!
 
+!!“HAHAHAHA! Did you think I, the demon lord who has been sealed for thousands of years, would not have a countermeasure against you? That was the only thing that kept me sane! Now that I’m free, NOTHING CAN STOP ME FROM HAVING THE PARTY OF THE ERA!!!!!!”
 
-:: Act 2 Monk Bad
+With a powerful blow, the demon lord [[knocks the wind out of you -> Act 3 Intro 1]]!
 
-Making something like a flash bang. You hope to buy some time for your teammates to escape out of the encirclement. But the moment you ask your teammate to escape, numerous snake-like black arms shoot out of the ground and bind your teammates. The hands began to pull and drag them underground only leaving their head above ground.
+:: Act 2 Monk Bad 2
+
+Making something like a flash bang, you hope to buy some time for your friends to escape out of the encirclement. But the moment you ask them to escape, numerous snake-like black arms shoot out of the ground and bind your teammates. The hands began to pull and drag them underground, leaving only their head aboveground.
 
 The demon lord laughs at your attempt to use the holy weapon.
-“Cheap Trick will get you nowhere! Now without your teammates you will no longer be a threat to me. HAHAHHHAAH!!!” 
-The demon lord continues with his celebration[[celebration->Act 3 Intro 1]].
 
+!!“Cheap tricks will get you nowhere! Now without your teammates, the holy $wrongWeapon will no longer be a threat to me. HAHAHAHA!!!” 
+
+With a powerful blow, the demon lord [[knocks the wind out of you -> Act 3 Intro 1]]!
